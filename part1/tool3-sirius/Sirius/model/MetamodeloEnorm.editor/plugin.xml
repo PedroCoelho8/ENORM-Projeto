@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <!-- @generated metamodeloEnorm -->
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="metamodeloEnorm.presentation.MetamodeloEnormModelWizardID"
+            name="%_UI_MetamodeloEnormModelWizard_label"
+            class="metamodeloEnorm.presentation.MetamodeloEnormModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/MetamodeloEnormModelFile.gif">
+         <description>%_UI_MetamodeloEnormModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <!-- @generated metamodeloEnorm -->
+      <editor
+            id="metamodeloEnorm.presentation.MetamodeloEnormEditorID"
+            name="%_UI_MetamodeloEnormEditor_label"
+            icon="icons/full/obj16/MetamodeloEnormModelFile.gif"
+            extensions="metamodeloenorm"
+            class="metamodeloEnorm.presentation.MetamodeloEnormEditor"
+            contributorClass="metamodeloEnorm.presentation.MetamodeloEnormActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>

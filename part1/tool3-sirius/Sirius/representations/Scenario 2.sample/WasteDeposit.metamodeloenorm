@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metamodeloEnorm:Scenario xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:metamodeloEnorm="http://www.example.org/metamodeloEnorm" name="Scenario Teste">
+  <hasActuator name="Luzes">
+    <isConnectedTo name="1">
+      <mapsThroughDataMapping name="Normalization 1">
+        <storesDatainDataCore name="BaseLeituraDados">
+          <hasList name="Reading1">
+            <hasAttributes name="ValoresNormalizados">
+              <hasConditions name="CalculoMedia"/>
+            </hasAttributes>
+          </hasList>
+        </storesDatainDataCore>
+      </mapsThroughDataMapping>
+      <hasAttribute name="ValoresLidos">
+        <hasConditions name="DetecaoOutliers" body="DetecaoOutliers"/>
+      </hasAttribute>
+      <followsConditions name="Normalizacao" body="normalized = value / 10"/>
+    </isConnectedTo>
+    <isConnectedTo name="2">
+      <mapsThroughDataMapping name="Normalization 2">
+        <storesDatainDataCore name="BaseLeituraDados">
+          <hasList name="Reading2">
+            <hasAttributes name="ValoresNormalizados">
+              <hasConditions name="CalculoMedia"/>
+            </hasAttributes>
+          </hasList>
+        </storesDatainDataCore>
+      </mapsThroughDataMapping>
+      <hasAttribute name="ValoresLidos">
+        <hasConditions name="DetecaoOutliers" body="DetecaoOutliers"/>
+      </hasAttribute>
+      <followsConditions name="Normalizacao" body="normalized = value / 10"/>
+    </isConnectedTo>
+    <isConnectedTo name="3">
+      <mapsThroughDataMapping name="Normalization 3">
+        <storesDatainDataCore name="BaseLeituraDados">
+          <hasList name="Reading3">
+            <hasAttributes name="ValoresNormalizados">
+              <hasConditions name="CalculoMedia"/>
+            </hasAttributes>
+          </hasList>
+        </storesDatainDataCore>
+      </mapsThroughDataMapping>
+      <hasAttribute name="ValoresLidos">
+        <hasConditions name="DetecaoOutliers" body="DetecaoOutliers"/>
+      </hasAttribute>
+      <followsConditions name="Normalizacao" body="normalized = value / 10"/>
+    </isConnectedTo>
+    <followsConditions name="Nivel Normal" returnType="Float" body="cor = avg(normalized) &lt; yellowThreshold">
+      <triggersActions name="ActionGreen">
+        <maySendNotification name="on-green">
+          <hasAttribute name="Message" value="A cor mudou para verde"/>
+        </maySendNotification>
+      </triggersActions>
+    </followsConditions>
+    <followsConditions name="Nivel Alerta" returnType="Float" body="cor = avg(normalized) ≥ yellowThreshold &amp;&amp; &lt; redThreshold">
+      <triggersActions name="ActionYellow">
+        <maySendNotification name="on-yellow">
+          <hasAttribute name="Message" value="A cor mudou para amarelo"/>
+        </maySendNotification>
+      </triggersActions>
+    </followsConditions>
+    <followsConditions name="Nivel Perigo" returnType="Float" body="cor = avg(normalized) ≥ redThreshold">
+      <triggersActions name="ActionRed">
+        <maySendNotification name="on-red">
+          <hasAttribute name="Message" value="A cor mudou para vermelho"/>
+        </maySendNotification>
+      </triggersActions>
+    </followsConditions>
+    <followsNotificationProtocol name="ColorChange">
+      <hasNotification name="ColorChange">
+        <hasAttribute name="Message" value="A cor mudou"/>
+      </hasNotification>
+    </followsNotificationProtocol>
+    <hasAttributes name="Cor" value="green"/>
+  </hasActuator>
+  <hasActuator name="Horn">
+    <isConnectedTo name="1">
+      <mapsThroughDataMapping name="Normalization 1">
+        <storesDatainDataCore name="BaseLeituraDados">
+          <hasList name="Reading1">
+            <hasAttributes name="ValoresNormalizados">
+              <hasConditions name="CalculoMedia"/>
+            </hasAttributes>
+          </hasList>
+        </storesDatainDataCore>
+      </mapsThroughDataMapping>
+      <hasAttribute name="ValoresLidos">
+        <hasConditions name="DetecaoOutliers" body="DetecaoOutliers"/>
+      </hasAttribute>
+      <followsConditions name="Normalizacao" body="normalized = value / 10"/>
+    </isConnectedTo>
+    <isConnectedTo name="2">
+      <mapsThroughDataMapping name="Normalization 2">
+        <storesDatainDataCore name="BaseLeituraDados">
+          <hasList name="Reading2">
+            <hasAttributes name="ValoresNormalizados">
+              <hasConditions name="CalculoMedia"/>
+            </hasAttributes>
+          </hasList>
+        </storesDatainDataCore>
+      </mapsThroughDataMapping>
+      <hasAttribute name="ValoresLidos">
+        <hasConditions name="DetecaoOutliers" body="DetecaoOutliers"/>
+      </hasAttribute>
+      <followsConditions name="Normalizacao" body="normalized = value / 10"/>
+    </isConnectedTo>
+    <isConnectedTo name="3">
+      <mapsThroughDataMapping name="Normalization 3">
+        <storesDatainDataCore name="BaseLeituraDados">
+          <hasList name="Reading3">
+            <hasAttributes name="ValoresNormalizados">
+              <hasConditions name="CalculoMedia"/>
+            </hasAttributes>
+          </hasList>
+        </storesDatainDataCore>
+      </mapsThroughDataMapping>
+      <hasAttribute name="ValoresLidos">
+        <hasConditions name="DetecaoOutliers" body="DetecaoOutliers"/>
+      </hasAttribute>
+      <followsConditions name="Normalizacao" body="normalized = value / 10"/>
+    </isConnectedTo>
+    <followsConditions name="Nivel Perigo" returnType="Float" body="cor = avg(normalized) ≥ redThreshold">
+      <triggersActions name="ActivateHorn"/>
+    </followsConditions>
+    <followsNotificationProtocol name="ActivateHorn">
+      <hasNotification name="HornSound">
+        <hasAttribute name="Message" value="A horn esta ativa."/>
+      </hasNotification>
+    </followsNotificationProtocol>
+  </hasActuator>
+</metamodeloEnorm:Scenario>

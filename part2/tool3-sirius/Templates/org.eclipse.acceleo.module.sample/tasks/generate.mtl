@@ -1,0 +1,145 @@
+[comment encoding = UTF-8 /]
+[module generate('http://www.example.org/metamodeloEnorm')]
+
+[template public generateElement(s : Scenario)]
+[comment @main/]
+[let fileName : String = s.name.concat('.txt')]
+[file (fileName, false, 'UTF-8')]
+
+Scenario: [s.name/]
+
+[if s.hasAttributes->notEmpty()]
+  Attributes:
+[for (a : Attribute | s.hasAttributes)]
+    - [a.name]: [a.type] = [a.value/]
+[/for]
+[/if]
+
+[for (a : Actuator | s.hasActuator)]
+  [generateActuator(a)/]
+[/for]
+
+[/file]
+[/let]
+[/template]
+
+
+[template public generateActuator(a : Actuator)]
+Actuator: [a.name/]
+
+[if a.hasAttributes->notEmpty()]
+  Attributes:
+[for (attr : Attribute | a.hasAttributes)]
+    - [attr.name]: [attr.type] = [attr.value/]
+[/for]
+[/if]
+
+[if a.isConnectedTo->notEmpty()]
+  Connected Sensors:
+[for (s : Sensor | a.isConnectedTo)]
+    - [generateSensor(s)/]
+[/for]
+[/if]
+
+[if a.followsConditions->notEmpty()]
+  Conditions:
+[for (c : Conditions | a.followsConditions)]
+    - [generateCondition(c)/]
+[/for]
+[/if]
+
+Notification Protocol:
+  [generateNotificationProtocol(a.followsNotificationProtocol)/]
+
+[/template]
+
+
+[template public generateSensor(s : Sensor)]
+  Sensor: [s.name/]
+  Data Mapping: [s.mapsThroughDataMapping.name/]
+  Attributes:
+[for (attr : Attribute | s.hasAttribute)]
+    - [attr.name]: [attr.type] = [attr.value/]
+[/for]
+  Conditions:
+[for (c : Conditions | s.followsConditions)]
+    - [generateCondition(c)/]
+[/for]
+[/template]
+
+
+[template public generateCondition(c : Conditions)]
+  Condition: [c.name/] ([c.returnType/])
+  Body: [c.body/]
+  Attributes:
+[for (a : Attribute | c.hasAttributes)]
+    - [a.name]: [a.type] = [a.value/]
+[/for]
+  Triggers Actions:
+[for (act : Action | c.triggersActions)]
+    - [generateAction(act)/]
+[/for]
+  Monitors Datacore:
+[for (d : Datacore | c.monitorsDataCore)]
+    - [generateDatacore(d)/]
+[/for]
+[/template]
+
+
+[template public generateAction(act : Action)]
+  Action: [act.name/] ([act.returnType/])
+  Body: [act.body/]
+  Attributes:
+[for (a : Attribute | act.hasAttributes)]
+    - [a.name]: [a.type] = [a.value/]
+[/for]
+  Acts on Actuators:
+[for (ac : Actuator | act.actsOnActuator)]
+    - [ac.name/]
+[/for]
+  Notifications:
+[for (n : Notification | act.maySendNotification)]
+    - [generateNotification(n)/]
+[/for]
+[/template]
+
+
+[template public generateNotificationProtocol(np : NotificationProtocol)]
+  Protocol: [np.name/]
+  Attributes:
+[for (a : Attribute | np.hasAttribute)]
+    - [a.name]: [a.type] = [a.value/]
+[/for]
+  Notifications:
+[for (n : Notification | np.hasNotification)]
+    - [generateNotification(n)/]
+[/for]
+  Conditions:
+[for (c : Conditions | np.followsConditions)]
+    - [generateCondition(c)/]
+[/for]
+[/template]
+
+
+[template public generateNotification(n : Notification)]
+  Notification: [n.name/]
+  Attributes:
+[for (a : Attribute | n.hasAttribute)]
+    - [a.name]: [a.type] = [a.value/]
+[/for]
+[/template]
+
+
+[template public generateDatacore(dc : Datacore)]
+  Datacore: [dc.name/]
+  List: [generateList(dc.hasList)/]
+[/template]
+
+
+[template public generateList(l : List)]
+  List: [l.name/] ([l.type/])
+  Attributes:
+[for (a : Attribute | l.hasAttributes)]
+    - [a.name]: [a.type] = [a.value/]
+[/for]
+[/template]

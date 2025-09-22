@@ -1,0 +1,149 @@
+@startuml Scenario3
+
+package "Scenario 3" {
+
+  class "Dehumidifier" {
+    <<Actuator>>
+  }
+  class "WaterVaporizer" {
+    <<Actuator>>
+  }
+  class "SecondaryHumidityMonitor" {
+    <<Actuator>>
+  }
+
+  class "HumiditySensor1" {
+    <<Sensor>>
+  }
+  class "HumiditySensor2" {
+    <<Sensor>>
+  }
+
+  class "HumidityProcessing1" {
+    <<DataMapping>>
+  }
+  class "HumidityProcessing2" {
+    <<DataMapping>>
+  }
+  class "SecondaryHumidityProcessing" {
+    <<DataMapping>>
+  }
+
+  class "HumidityDataCore" {
+    <<DataCore>>
+  }
+
+  class "HumidityReadings1" {
+    <<DataList>>
+  }
+  class "HumidityReadings2" {
+    <<DataList>>
+  }
+  class "HumidityReadings3" {
+    <<DataList>>
+  }
+
+  class "AverageHumidity" {
+    <<Attribute>>
+  }
+
+  class "AverageLast5s" {
+    <<Condition>>
+    body = "average(humidity, last 5s)"
+  }
+
+  class "IgnoreOutliers" {
+    <<Condition>>
+    body = "abs(current - average) > threshold → ignore"
+  }
+
+  class "HighHumidity" {
+    <<Condition>>
+    body = "humidity > 48%"
+  }
+
+  class "HumidityNormalized1" as HumNorm1 {
+    <<Condition>>
+    body = "humidity between 42% and 48%"
+  }
+
+  class "LowHumidity" {
+    <<Condition>>
+    body = "humidity less 42%"
+  }
+
+  class "HumidityNormalized2" as HumNorm2 {
+    <<Condition>>
+    body = "humidity between 42% and 48%"
+  }
+
+  class "StartDehumidifier" {
+    <<Action>>
+  }
+
+  class "StopDehumidifier" {
+    <<Action>>
+  }
+
+  class "StartWaterVaporizer" {
+    <<Action>>
+  }
+
+  class "StopWaterVaporizer" {
+    <<Action>>
+  }
+
+  class "DehumidifierAlert" {
+    <<Notification>>
+    Message = "High humidity detected. Dehumidifier activated."
+  }
+
+  class "LowHumidityAlert" {
+    <<Notification>>
+    Message = "Low humidity detected. Vaporizer activated."
+  }
+
+  ' Ligação Dehumidifier
+  "Dehumidifier" --> "HumiditySensor1"
+  "HumiditySensor1" --> "HumidityProcessing1"
+  "HumidityProcessing1" --> "HumidityDataCore"
+  "HumidityDataCore" --> "HumidityReadings1"
+  "HumidityReadings1" --> "AverageHumidity"
+  "AverageHumidity" --> "AverageLast5s"
+  "AverageHumidity" --> "IgnoreOutliers"
+
+  "Dehumidifier" --> "HighHumidity"
+  "HighHumidity" --> "StartDehumidifier"
+  "StartDehumidifier" --> "DehumidifierAlert"
+
+  "Dehumidifier" --> HumNorm1
+  HumNorm1 --> "StopDehumidifier"
+
+  ' Ligação WaterVaporizer
+  "WaterVaporizer" --> "HumiditySensor1"
+  "HumiditySensor1" --> "HumidityProcessing2"
+  "HumidityProcessing2" --> "HumidityDataCore"
+  "HumidityDataCore" --> "HumidityReadings2"
+  "HumidityReadings2" --> "AverageHumidity"
+  "AverageHumidity" --> "AverageLast5s"
+  "AverageHumidity" --> "IgnoreOutliers"
+
+  "WaterVaporizer" --> "LowHumidity"
+  "LowHumidity" --> "StartWaterVaporizer"
+  "StartWaterVaporizer" --> "LowHumidityAlert"
+
+  "WaterVaporizer" --> HumNorm2
+  HumNorm2 --> "StopWaterVaporizer"
+
+  ' Ligação SecondaryHumidityMonitor
+  "SecondaryHumidityMonitor" --> "HumiditySensor2"
+  "HumiditySensor2" --> "SecondaryHumidityProcessing"
+  "SecondaryHumidityProcessing" --> "HumidityDataCore"
+  "HumidityDataCore" --> "HumidityReadings3"
+  "HumidityReadings3" --> "AverageHumidity"
+  "AverageHumidity" --> "AverageLast5s"
+  "AverageHumidity" --> "IgnoreOutliers"
+
+}
+
+@enduml

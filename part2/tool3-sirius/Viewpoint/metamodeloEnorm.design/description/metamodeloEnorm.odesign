@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/description/tool/1.1.0" xmlns:validation="http://www.eclipse.org/sirius/description/validation/1.1.0" name="metamodeloEnorm" version="12.0.0.2017041100">
+  <ownedViewpoints name="MyViewpoint" modelFileExtension="metamodeloenorm">
+    <validationSet name="Scenarios Validation">
+      <ownedRules xsi:type="validation:SemanticValidationRule" name="Scenario Name &lt; 3" level="ERROR" message="The element needs at least 3 characters" targetClass="metamodeloEnorm::Actuator">
+        <audits auditExpression="aql:self.name.size() > 3"/>
+        <fixes name="ShortName">
+          <initialOperation>
+            <firstModelOperations xsi:type="tool:ChangeContext" browseExpression="aql:self.name">
+              <subModelOperations xsi:type="tool:SetValue" featureName="name" valueExpression="Actuator Test"/>
+            </firstModelOperations>
+          </initialOperation>
+        </fixes>
+      </ownedRules>
+    </validationSet>
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="Scenario" domainClass="metamodeloEnorm::Scenario" enablePopupBars="true">
+      <metamodel href="http://www.example.org/metamodeloEnorm#/"/>
+      <defaultLayer name="Default">
+        <nodeMappings name="ScenarioNode" domainClass="metamodeloEnorm::Scenario">
+          <style xsi:type="style:SquareDescription" labelSize="12" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="ActuatorNode" domainClass="metamodeloEnorm::Actuator">
+          <style xsi:type="style:LozengeNodeDescription" labelExpression="aql:self.name">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="SensorNode" domainClass="metamodeloEnorm::Sensor">
+          <style xsi:type="style:EllipseNodeDescription" labelExpression="aql:self.name">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='blue']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="DataMapping" domainClass="metamodeloEnorm::DataMapping">
+          <style xsi:type="style:EllipseNodeDescription" labelSize="12" labelExpression="aql:self.name" labelPosition="node" resizeKind="NSEW">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='chocolate']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="DatacoreNode" domainClass="metamodeloEnorm::Datacore">
+          <style xsi:type="style:SquareDescription" labelExpression="aql:self.name">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="ListNode" domainClass="metamodeloEnorm::List">
+          <style xsi:type="style:EllipseNodeDescription" labelExpression="aql:self.name">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='green']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="AttributeNode" domainClass="metamodeloEnorm::Attribute">
+          <style xsi:type="style:LozengeNodeDescription" labelExpression="aql:self.name">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='orange']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="ConditionNode" domainClass="metamodeloEnorm::Conditions">
+          <style xsi:type="style:SquareDescription" labelExpression="aql:self.name">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='purple']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="NotificationProtocolNode" domainClass="metamodeloEnorm::NotificationProtocol">
+          <style xsi:type="style:SquareDescription" labelExpression="aql:self.name">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='red']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="ActionNode" domainClass="metamodeloEnorm::Action">
+          <style xsi:type="style:EllipseNodeDescription" labelExpression="aql:self.name">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='yellow']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="NotificationNode" domainClass="metamodeloEnorm::Notification">
+          <style xsi:type="style:SquareDescription" labelExpression="aql:self.name">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='white']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="ActuatorToSensor" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='ActuatorNode']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='SensorNode']" targetFinderExpression="aql:self.isConnectedTo">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="ActuatorToAttributes" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='ActuatorNode']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='AttributeNode']" targetFinderExpression="aql:self.hasAttributes">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="ActuatorToConditions" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='ActuatorNode']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='ConditionNode']" targetFinderExpression="aql:self.followsConditions">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="ActuatorToNotificationProtocol" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='ActuatorNode']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='NotificationProtocolNode']" targetFinderExpression="aql:self.followsNotificationProtocol">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="NotificationProtocolToNotification" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='NotificationProtocolNode']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='NotificationNode']" targetFinderExpression="aql:self.hasNotification">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="NotificationProtocolToAttribute" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='NotificationProtocolNode']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='AttributeNode']" targetFinderExpression="aql:self.hasAttribute">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="NotificationProtocolToCondition" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='NotificationProtocolNode']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='ConditionNode']" targetFinderExpression="aql:self.followsConditions">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="SensorToAttribute" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='SensorNode']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='AttributeNode']" targetFinderExpression="aql:self.hasAttribute">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="SensorToDataMapping" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='SensorNode']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='DataMapping']" targetFinderExpression="aql:self.mapsThroughDataMapping">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="SensorToConditions" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='SensorNode']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='ConditionNode']" targetFinderExpression="aql:self.followsConditions">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="ConditionsToDatacore" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='ConditionNode']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='DatacoreNode']" targetFinderExpression="aql:self.monitorsDataCore">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="ConditionsToAttributes" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='ConditionNode']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='AttributeNode']" targetFinderExpression="aql:self.hasAttributes">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="ConditionsToActions" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='ConditionNode']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='ActionNode']" targetFinderExpression="aql:self.triggersActions">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="ActionToActuator" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='ActionNode']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='ActuatorNode']" targetFinderExpression="aql:self.actsOnActuator">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="ActionToNotification" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='ActionNode']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='NotificationNode']" targetFinderExpression="aql:self.maySendNotification">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="ActionToAttribute" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='ActionNode']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='AttributeNode']" targetFinderExpression="aql:self.hasAttributes">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="NotificationToAttribute" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='NotificationNode']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='AttributeNode']" targetFinderExpression="aql:self.hasAttribute">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="AttributeToConditions" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='AttributeNode']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='ConditionNode']" targetFinderExpression="aql:self.hasConditions">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="ListToAttribute" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='ListNode']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='AttributeNode']" targetFinderExpression="aql:self.hasAttributes">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="DatacoreToList" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='DatacoreNode']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='ListNode']" targetFinderExpression="aql:self.hasList">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="DataMappingToDatacore" sourceMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='DataMapping']" targetMapping="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='DatacoreNode']" targetFinderExpression="aql:self.storesDatainDataCore">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12">
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <toolSections name="Generate PlantUML" icon="/org.eclipse.emf.ecoretools/eclipse.png">
+          <ownedTools xsi:type="tool:OperationAction" name="Call Generate PlantUML" forceRefresh="true" icon="/org.eclipse.eef.ide.ui/icons/full/create.gif">
+            <view name="views"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool:ExternalJavaActionCall" name="generate_plantuml" label="Generate PlantUml" action="//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@toolSections.0/@ownedTools[name='Call%20Generate%20PlantUML']/@initialOperation/@firstModelOperations/@subModelOperations.0">
+                <subModelOperations xsi:type="tool:ExternalJavaAction" name="external_java_generate_plantuml" label="Generate PlantUML" id="metamodeloEnorm.design.GeneratePlantUML"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+    <ownedJavaExtensions qualifiedClassName="metamodeloEnorm.design.Services"/>
+    <ownedJavaExtensions qualifiedClassName="metamodeloEnorm.design.GeneratePlantUML"/>
+  </ownedViewpoints>
+</description:Group>

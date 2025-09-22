@@ -1,0 +1,205 @@
+@startuml
+
+skinparam classFontStyle bold
+skinparam classFontSize 14
+
+title Class Diagram: Scenario Teste (Corrigido)
+
+class Scenario_Teste {
+}
+
+class Actuator_Luzes {
+  +name: "Luzes"
+  +Cor: "green"
+}
+
+class Actuator_Horn {
+  +name: "Horn"
+}
+
+class Sensor_1 {
+  +name: "1"
+}
+
+class Sensor_2 {
+  +name: "2"
+}
+
+class Sensor_3 {
+  +name: "3"
+}
+
+class DataMapping_Normalization_1 {
+  +name: "Normalization 1"
+}
+
+class DataMapping_Normalization_2 {
+  +name: "Normalization 2"
+}
+
+class DataMapping_Normalization_3 {
+  +name: "Normalization 3"
+}
+
+class DataCore_BaseLeituraDados {
+  +name: "BaseLeituraDados"
+}
+
+class List_Reading1 {
+  +name: "Reading1"
+}
+
+class List_Reading2 {
+  +name: "Reading2"
+}
+
+class List_Reading3 {
+  +name: "Reading3"
+}
+
+class Attribute_ValoresNormalizados {
+  +name: "ValoresNormalizados"
+}
+
+class Attribute_ValoresLidos {
+  +name: "ValoresLidos"
+}
+
+class Condition_DetecaoOutliers {
+  +name: "DetecaoOutliers"
+}
+
+class Condition_Normalizacao {
+  +name: "Normalizacao"
+  +body: "normalized = value / 10"
+}
+
+class Condition_Nivel_Normal {
+  +name: "Nivel Normal"
+  +body: "cor = avg(normalized) < yellowThreshold"
+}
+
+class Condition_Nivel_Alerta {
+  +name: "Nivel Alerta"
+  +body: "cor = avg(normalized) ≥ yellowThreshold && < redThreshold"
+}
+
+class Condition_Nivel_Perigo {
+  +name: "Nivel Perigo"
+  +body: "cor = avg(normalized) ≥ redThreshold"
+}
+
+class Action_ActionGreen {
+  +name: "ActionGreen"
+}
+
+class Action_ActionYellow {
+  +name: "ActionYellow"
+}
+
+class Action_ActionRed {
+  +name: "ActionRed"
+}
+
+class Action_ActivateHorn {
+  +name: "ActivateHorn"
+}
+
+class Notification_on_green {
+  +name: "on-green"
+  +Message: "A cor mudou para verde"
+}
+
+class Notification_on_yellow {
+  +name: "on-yellow"
+  +Message: "A cor mudou para amarelo"
+}
+
+class Notification_on_red {
+  +name: "on-red"
+  +Message: "A cor mudou para vermelho"
+}
+
+class Notification_HornSound {
+  +name: "HornSound"
+  +Message: "A horn está ativa."
+}
+
+class NotificationProtocol_ColorChange {
+  +name: "ColorChange"
+}
+
+class NotificationProtocol_ActivateHorn {
+  +name: "ActivateHorn"
+}
+
+' Relações principais
+
+Scenario_Teste --> Actuator_Luzes : hasActuator
+Scenario_Teste --> Actuator_Horn : hasActuator
+
+' Ligação sensores a actuators
+Actuator_Luzes --> Sensor_1 : isConnectedTo
+Actuator_Luzes --> Sensor_2 : isConnectedTo
+Actuator_Luzes --> Sensor_3 : isConnectedTo
+
+Actuator_Horn --> Sensor_1 : isConnectedTo
+Actuator_Horn --> Sensor_2 : isConnectedTo
+Actuator_Horn --> Sensor_3 : isConnectedTo
+
+' DataMapping e DataCore ligados aos sensores
+Sensor_1 --> DataMapping_Normalization_1 : mapsThroughDataMapping
+Sensor_2 --> DataMapping_Normalization_2 : mapsThroughDataMapping
+Sensor_3 --> DataMapping_Normalization_3 : mapsThroughDataMapping
+
+Sensor_1 --> Attribute_ValoresLidos : hasAttributes
+Sensor_2 --> Attribute_ValoresLidos : hasAttributes
+Sensor_3 --> Attribute_ValoresLidos : hasAttributes
+
+DataMapping_Normalization_1 --> DataCore_BaseLeituraDados : storesDataInDataCore
+DataMapping_Normalization_2 --> DataCore_BaseLeituraDados : storesDataInDataCore
+DataMapping_Normalization_3 --> DataCore_BaseLeituraDados : storesDataInDataCore
+
+DataCore_BaseLeituraDados --> List_Reading1 : hasList
+DataCore_BaseLeituraDados --> List_Reading2 : hasList
+DataCore_BaseLeituraDados --> List_Reading3 : hasList
+
+List_Reading1 --> Attribute_ValoresNormalizados : hasAttributes
+List_Reading2 --> Attribute_ValoresNormalizados : hasAttributes
+List_Reading3 --> Attribute_ValoresNormalizados : hasAttributes
+
+' Atributos dos sensores têm condições
+Attribute_ValoresLidos --> Condition_DetecaoOutliers : hasConditions
+Sensor_1 --> Condition_Normalizacao : followsConditions
+Sensor_2 --> Condition_Normalizacao : followsConditions
+Sensor_3 --> Condition_Normalizacao : followsConditions
+
+' Condições de nível associadas aos actuators Luzes
+Actuator_Luzes --> Condition_Nivel_Normal : followsConditions
+Actuator_Luzes --> Condition_Nivel_Alerta : followsConditions
+Actuator_Luzes --> Condition_Nivel_Perigo : followsConditions
+
+' Condições disparam ações para Luzes
+Condition_Nivel_Normal --> Action_ActionGreen : triggersActions
+Condition_Nivel_Alerta --> Action_ActionYellow : triggersActions
+Condition_Nivel_Perigo --> Action_ActionRed : triggersActions
+
+' Ações ligadas a notificações (Luzes)
+Action_ActionGreen --> Notification_on_green : maySendNotification
+Action_ActionYellow --> Notification_on_yellow : maySendNotification
+Action_ActionRed --> Notification_on_red : maySendNotification
+
+' Protocolos de notificação seguidos pelo actuator Luzes
+Actuator_Luzes --> NotificationProtocol_ColorChange : followsNotificationProtocol
+NotificationProtocol_ColorChange --> Notification_on_green
+NotificationProtocol_ColorChange --> Notification_on_yellow
+NotificationProtocol_ColorChange --> Notification_on_red
+
+' Condição e ação no actuator Horn
+Actuator_Horn --> Condition_Nivel_Perigo : followsConditions
+Condition_Nivel_Perigo --> Action_ActivateHorn : triggersActions
+Action_ActivateHorn --> Notification_HornSound : maySendNotification
+Actuator_Horn --> NotificationProtocol_ActivateHorn : followsNotificationProtocol
+NotificationProtocol_ActivateHorn --> Notification_HornSound
+
+@enduml

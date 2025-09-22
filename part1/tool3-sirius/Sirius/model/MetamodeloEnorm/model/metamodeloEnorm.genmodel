@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel"
+    modelDirectory="/MetamodeloEnorm/src-gen" creationIcons="false"
+    editDirectory="/MetamodeloEnorm.edit/src-gen" editorDirectory="/MetamodeloEnorm.editor/src-gen"
+    modelPluginID="MetamodeloEnorm" modelName="MetamodeloEnorm" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    codeFormatting="true" importerID="org.eclipse.emf.importer.ecore" complianceLevel="17.0"
+    copyrightFields="false" operationReflection="true" importOrganizing="true">
+  <foreignModel>metamodeloEnorm.ecore</foreignModel>
+  <testsDirectory xsi:nil="true"/>
+  <genPackages prefix="MetamodeloEnorm" disposableProviderFactory="true" ecorePackage="metamodeloEnorm.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="metamodeloEnorm.ecore#//DataType">
+      <genEnumLiterals ecoreEnumLiteral="metamodeloEnorm.ecore#//DataType/String"/>
+      <genEnumLiterals ecoreEnumLiteral="metamodeloEnorm.ecore#//DataType/Float"/>
+      <genEnumLiterals ecoreEnumLiteral="metamodeloEnorm.ecore#//DataType/Int"/>
+      <genEnumLiterals ecoreEnumLiteral="metamodeloEnorm.ecore#//DataType/Boolean"/>
+      <genEnumLiterals ecoreEnumLiteral="metamodeloEnorm.ecore#//DataType/Double"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="metamodeloEnorm.ecore#//ListDataType">
+      <genEnumLiterals ecoreEnumLiteral="metamodeloEnorm.ecore#//ListDataType/List"/>
+      <genEnumLiterals ecoreEnumLiteral="metamodeloEnorm.ecore#//ListDataType/Set"/>
+      <genEnumLiterals ecoreEnumLiteral="metamodeloEnorm.ecore#//ListDataType/Hashmap"/>
+    </genEnums>
+    <genClasses ecoreClass="metamodeloEnorm.ecore#//Scenario">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute metamodeloEnorm.ecore#//Scenario/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference metamodeloEnorm.ecore#//Scenario/hasActuator"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference metamodeloEnorm.ecore#//Scenario/hasAttributes"/>
+    </genClasses>
+    <genClasses ecoreClass="metamodeloEnorm.ecore#//Actuator">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute metamodeloEnorm.ecore#//Actuator/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference metamodeloEnorm.ecore#//Actuator/isConnectedTo"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference metamodeloEnorm.ecore#//Actuator/followsConditions"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference metamodeloEnorm.ecore#//Actuator/followsNotificationProtocol"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference metamodeloEnorm.ecore#//Actuator/hasAttributes"/>
+    </genClasses>
+    <genClasses ecoreClass="metamodeloEnorm.ecore#//NotificationProtocol">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute metamodeloEnorm.ecore#//NotificationProtocol/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference metamodeloEnorm.ecore#//NotificationProtocol/hasNotification"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference metamodeloEnorm.ecore#//NotificationProtocol/hasAttribute"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference metamodeloEnorm.ecore#//NotificationProtocol/followsConditions"/>
+    </genClasses>
+    <genClasses ecoreClass="metamodeloEnorm.ecore#//Sensor">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute metamodeloEnorm.ecore#//Sensor/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference metamodeloEnorm.ecore#//Sensor/mapsThroughDataMapping"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference metamodeloEnorm.ecore#//Sensor/hasAttribute"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference metamodeloEnorm.ecore#//Sensor/followsConditions"/>
+    </genClasses>
+    <genClasses ecoreClass="metamodeloEnorm.ecore#//Conditions">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute metamodeloEnorm.ecore#//Conditions/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute metamodeloEnorm.ecore#//Conditions/returnType"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute metamodeloEnorm.ecore#//Conditions/body"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference metamodeloEnorm.ecore#//Conditions/monitorsDataCore"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference metamodeloEnorm.ecore#//Conditions/hasAttributes"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference metamodeloEnorm.ecore#//Conditions/triggersActions"/>
+    </genClasses>
+    <genClasses ecoreClass="metamodeloEnorm.ecore#//Action">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute metamodeloEnorm.ecore#//Action/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute metamodeloEnorm.ecore#//Action/returnType"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute metamodeloEnorm.ecore#//Action/body"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference metamodeloEnorm.ecore#//Action/actsOnActuator"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference metamodeloEnorm.ecore#//Action/maySendNotification"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference metamodeloEnorm.ecore#//Action/hasAttributes"/>
+    </genClasses>
+    <genClasses ecoreClass="metamodeloEnorm.ecore#//Notification">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute metamodeloEnorm.ecore#//Notification/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference metamodeloEnorm.ecore#//Notification/hasAttribute"/>
+    </genClasses>
+    <genClasses ecoreClass="metamodeloEnorm.ecore#//Attribute">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute metamodeloEnorm.ecore#//Attribute/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute metamodeloEnorm.ecore#//Attribute/type"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute metamodeloEnorm.ecore#//Attribute/value"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference metamodeloEnorm.ecore#//Attribute/hasConditions"/>
+    </genClasses>
+    <genClasses ecoreClass="metamodeloEnorm.ecore#//List">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute metamodeloEnorm.ecore#//List/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute metamodeloEnorm.ecore#//List/type"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference metamodeloEnorm.ecore#//List/hasAttributes"/>
+    </genClasses>
+    <genClasses ecoreClass="metamodeloEnorm.ecore#//Datacore">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute metamodeloEnorm.ecore#//Datacore/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference metamodeloEnorm.ecore#//Datacore/hasList"/>
+    </genClasses>
+    <genClasses ecoreClass="metamodeloEnorm.ecore#//DataMapping">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute metamodeloEnorm.ecore#//DataMapping/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference metamodeloEnorm.ecore#//DataMapping/storesDatainDataCore"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

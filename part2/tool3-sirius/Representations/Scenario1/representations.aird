@@ -1,0 +1,1424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:metamodeloEnorm="http://www.example.org/metamodeloEnorm" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+  <viewpoint:DAnalysis uid="_X0kycD4lEfCthrQ94XfFQA" selectedViews="_gqRAwD4lEfCthrQ94XfFQA" version="15.4.1.202403191723">
+    <semanticResources>platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign</semanticResources>
+    <semanticResources>environment:/viewpoint</semanticResources>
+    <semanticResources>Scenario1.metamodeloenorm</semanticResources>
+    <ownedViews xmi:type="viewpoint:DView" uid="_gqRAwD4lEfCthrQ94XfFQA">
+      <viewpoint xmi:type="description:Viewpoint" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_K0f8cD4nEfCthrQ94XfFQA" name="Scenario1" repPath="#_K0eHQD4nEfCthrQ94XfFQA" changeId="1748703440775">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']"/>
+        <target xmi:type="metamodeloEnorm:Scenario" href="Scenario1.metamodeloenorm#/"/>
+      </ownedRepresentationDescriptors>
+    </ownedViews>
+  </viewpoint:DAnalysis>
+  <diagram:DSemanticDiagram uid="_K0eHQD4nEfCthrQ94XfFQA">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_K0gjgD4nEfCthrQ94XfFQA" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_K0gjgT4nEfCthrQ94XfFQA" type="Sirius" element="_K0eHQD4nEfCthrQ94XfFQA" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_K05lED4nEfCthrQ94XfFQA" type="2001" element="_K0k08D4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K05lEz4nEfCthrQ94XfFQA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_K05lFD4nEfCthrQ94XfFQA" x="31" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1SmoD4nEfCthrQ94XfFQA" type="3017" element="_K0k08T4nEfCthrQ94XfFQA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_K1SmoT4nEfCthrQ94XfFQA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1Smoj4nEfCthrQ94XfFQA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_K05lET4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K05lEj4nEfCthrQ94XfFQA" x="450" y="540" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_K06zMD4nEfCthrQ94XfFQA" type="2001" element="_K0lcAD4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K06zMz4nEfCthrQ94XfFQA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_K06zND4nEfCthrQ94XfFQA" x="31" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1TNsD4nEfCthrQ94XfFQA" type="3016" element="_K0lcAT4nEfCthrQ94XfFQA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_K1TNsT4nEfCthrQ94XfFQA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1TNsj4nEfCthrQ94XfFQA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_K06zMT4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K06zMj4nEfCthrQ94XfFQA" x="180" y="450" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_K06zNT4nEfCthrQ94XfFQA" type="2001" element="_K0lcAz4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K06zOD4nEfCthrQ94XfFQA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_K06zOT4nEfCthrQ94XfFQA" x="31" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1T0wD4nEfCthrQ94XfFQA" type="3016" element="_K0lcBD4nEfCthrQ94XfFQA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_K1T0wT4nEfCthrQ94XfFQA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1T0wj4nEfCthrQ94XfFQA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_K06zNj4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K06zNz4nEfCthrQ94XfFQA" x="450" y="450" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_K08BUD4nEfCthrQ94XfFQA" type="2001" element="_K0mqID4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K08BUz4nEfCthrQ94XfFQA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_K08BVD4nEfCthrQ94XfFQA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1T0wz4nEfCthrQ94XfFQA" type="3016" element="_K0mqIT4nEfCthrQ94XfFQA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_K1T0xD4nEfCthrQ94XfFQA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1T0xT4nEfCthrQ94XfFQA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_K08BUT4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K08BUj4nEfCthrQ94XfFQA" y="360" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_K08BVT4nEfCthrQ94XfFQA" type="2001" element="_K0mqIz4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K08BWD4nEfCthrQ94XfFQA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_K08BWT4nEfCthrQ94XfFQA" y="5"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1T0xj4nEfCthrQ94XfFQA" type="3016" element="_K0mqJD4nEfCthrQ94XfFQA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_K1T0xz4nEfCthrQ94XfFQA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1T0yD4nEfCthrQ94XfFQA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_K08BVj4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="12"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K08BVz4nEfCthrQ94XfFQA" x="360" y="360" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_K08BWj4nEfCthrQ94XfFQA" type="2001" element="_K0mqJj4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K08oYD4nEfCthrQ94XfFQA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_K08oYT4nEfCthrQ94XfFQA" x="31" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1T0yT4nEfCthrQ94XfFQA" type="3003" element="_K0mqJz4nEfCthrQ94XfFQA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_K1T0yj4nEfCthrQ94XfFQA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1T0yz4nEfCthrQ94XfFQA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_K08BWz4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K08BXD4nEfCthrQ94XfFQA" x="2" y="270" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_K08oYj4nEfCthrQ94XfFQA" type="2001" element="_K0nRMT4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K08oZT4nEfCthrQ94XfFQA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_K08oZj4nEfCthrQ94XfFQA" x="31" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1T0zD4nEfCthrQ94XfFQA" type="3003" element="_K0nRMj4nEfCthrQ94XfFQA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_K1T0zT4nEfCthrQ94XfFQA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1T0zj4nEfCthrQ94XfFQA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_K08oYz4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K08oZD4nEfCthrQ94XfFQA" x="360" y="270" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_K09PcD4nEfCthrQ94XfFQA" type="2001" element="_K0nRND4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K09Pcz4nEfCthrQ94XfFQA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_K09PdD4nEfCthrQ94XfFQA" x="31" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1VC4D4nEfCthrQ94XfFQA" type="3016" element="_K0nRNT4nEfCthrQ94XfFQA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_K1VC4T4nEfCthrQ94XfFQA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1VC4j4nEfCthrQ94XfFQA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_K09PcT4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K09Pcj4nEfCthrQ94XfFQA" x="2" y="180" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_K09PdT4nEfCthrQ94XfFQA" type="2001" element="_K0nRNz4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K09PeD4nEfCthrQ94XfFQA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_K09PeT4nEfCthrQ94XfFQA" x="31" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1VC4z4nEfCthrQ94XfFQA" type="3016" element="_K0nROD4nEfCthrQ94XfFQA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_K1VC5D4nEfCthrQ94XfFQA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1VC5T4nEfCthrQ94XfFQA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_K09Pdj4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K09Pdz4nEfCthrQ94XfFQA" x="360" y="180" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_K0-dkD4nEfCthrQ94XfFQA" type="2001" element="_K0nROj4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K0_rsD4nEfCthrQ94XfFQA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_K0_rsT4nEfCthrQ94XfFQA" x="31" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1Vp8D4nEfCthrQ94XfFQA" type="3017" element="_K0nROz4nEfCthrQ94XfFQA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_K1Vp8T4nEfCthrQ94XfFQA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1Vp8j4nEfCthrQ94XfFQA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_K0-dkT4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K0-dkj4nEfCthrQ94XfFQA" x="2" y="90" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_K0_rsj4nEfCthrQ94XfFQA" type="2001" element="_K0nRPT4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K0_rtT4nEfCthrQ94XfFQA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_K0_rtj4nEfCthrQ94XfFQA" x="31" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1WRAD4nEfCthrQ94XfFQA" type="3017" element="_K0ofUD4nEfCthrQ94XfFQA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_K1WRAT4nEfCthrQ94XfFQA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1WRAj4nEfCthrQ94XfFQA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_K0_rsz4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K0_rtD4nEfCthrQ94XfFQA" x="180" y="360" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_K1A50D4nEfCthrQ94XfFQA" type="2001" element="_K0ofUj4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K1CH8D4nEfCthrQ94XfFQA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_K1CH8T4nEfCthrQ94XfFQA" x="31" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1WRAz4nEfCthrQ94XfFQA" type="3017" element="_K0ofUz4nEfCthrQ94XfFQA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_K1WRBD4nEfCthrQ94XfFQA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1WRBT4nEfCthrQ94XfFQA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_K1A50T4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1A50j4nEfCthrQ94XfFQA" x="360" y="90" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_K1CvAD4nEfCthrQ94XfFQA" type="2001" element="_K0ofVT4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K1CvAz4nEfCthrQ94XfFQA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_K1CvBD4nEfCthrQ94XfFQA" x="31" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1W4ED4nEfCthrQ94XfFQA" type="3017" element="_K0ofVj4nEfCthrQ94XfFQA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_K1W4ET4nEfCthrQ94XfFQA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1W4Ej4nEfCthrQ94XfFQA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_K1CvAT4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1CvAj4nEfCthrQ94XfFQA" x="450" y="360" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_K1DWED4nEfCthrQ94XfFQA" type="2001" element="_K0ofWD4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K1DWEz4nEfCthrQ94XfFQA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_K1DWFD4nEfCthrQ94XfFQA" x="31" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1W4Ez4nEfCthrQ94XfFQA" type="3017" element="_K0ofWT4nEfCthrQ94XfFQA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_K1W4FD4nEfCthrQ94XfFQA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1W4FT4nEfCthrQ94XfFQA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_K1DWET4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1DWEj4nEfCthrQ94XfFQA" x="630" y="180" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_K1DWFT4nEfCthrQ94XfFQA" type="2001" element="_K0ofWz4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K1DWGD4nEfCthrQ94XfFQA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_K1DWGT4nEfCthrQ94XfFQA" x="31" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1W4Fj4nEfCthrQ94XfFQA" type="3017" element="_K0ofXD4nEfCthrQ94XfFQA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_K1W4Fz4nEfCthrQ94XfFQA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1W4GD4nEfCthrQ94XfFQA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_K1DWFj4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1DWFz4nEfCthrQ94XfFQA" x="720" y="180" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_K1D9ID4nEfCthrQ94XfFQA" type="2001" element="_K0ofXj4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K1FLQD4nEfCthrQ94XfFQA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_K1FLQT4nEfCthrQ94XfFQA" x="31" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1W4GT4nEfCthrQ94XfFQA" type="3017" element="_K0pGYD4nEfCthrQ94XfFQA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_K1W4Gj4nEfCthrQ94XfFQA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1W4Gz4nEfCthrQ94XfFQA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_K1D9IT4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1D9Ij4nEfCthrQ94XfFQA" x="270" y="270" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_K1FLQj4nEfCthrQ94XfFQA" type="2001" element="_K0pGYj4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K1FyUD4nEfCthrQ94XfFQA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_K1FyUT4nEfCthrQ94XfFQA" x="31" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1W4HD4nEfCthrQ94XfFQA" type="3017" element="_K0pGYz4nEfCthrQ94XfFQA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_K1W4HT4nEfCthrQ94XfFQA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1W4Hj4nEfCthrQ94XfFQA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_K1FLQz4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1FLRD4nEfCthrQ94XfFQA" x="90" y="450" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_K1FyUj4nEfCthrQ94XfFQA" type="2001" element="_K0pGZT4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K1FyVT4nEfCthrQ94XfFQA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_K1FyVj4nEfCthrQ94XfFQA" x="31" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1W4Hz4nEfCthrQ94XfFQA" type="3003" element="_K0pGZj4nEfCthrQ94XfFQA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_K1W4ID4nEfCthrQ94XfFQA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1W4IT4nEfCthrQ94XfFQA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_K1FyUz4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1FyVD4nEfCthrQ94XfFQA" x="2" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_K1FyVz4nEfCthrQ94XfFQA" type="2001" element="_K0pGaD4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K1HAcD4nEfCthrQ94XfFQA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_K1HAcT4nEfCthrQ94XfFQA" x="31" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1W4Ij4nEfCthrQ94XfFQA" type="3003" element="_K0pGaT4nEfCthrQ94XfFQA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_K1W4Iz4nEfCthrQ94XfFQA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1W4JD4nEfCthrQ94XfFQA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_K1FyWD4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1FyWT4nEfCthrQ94XfFQA" x="180" y="270" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_K1HAcj4nEfCthrQ94XfFQA" type="2001" element="_K0pGaz4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K1HAdT4nEfCthrQ94XfFQA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_K1HAdj4nEfCthrQ94XfFQA" x="31" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1W4JT4nEfCthrQ94XfFQA" type="3003" element="_K0pGbD4nEfCthrQ94XfFQA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_K1W4Jj4nEfCthrQ94XfFQA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1W4Jz4nEfCthrQ94XfFQA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_K1HAcz4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1HAdD4nEfCthrQ94XfFQA" x="90" y="360" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_K1IOkD4nEfCthrQ94XfFQA" type="2001" element="_K0ptcT4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K1I1oD4nEfCthrQ94XfFQA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_K1I1oT4nEfCthrQ94XfFQA" x="31" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1W4KD4nEfCthrQ94XfFQA" type="3003" element="_K0ptcj4nEfCthrQ94XfFQA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_K1W4KT4nEfCthrQ94XfFQA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1W4Kj4nEfCthrQ94XfFQA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_K1IOkT4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1IOkj4nEfCthrQ94XfFQA" x="360" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_K1KDwD4nEfCthrQ94XfFQA" type="2001" element="_K0qUgT4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K1KDwz4nEfCthrQ94XfFQA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_K1KDxD4nEfCthrQ94XfFQA" x="31" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1W4Kz4nEfCthrQ94XfFQA" type="3003" element="_K0qUgj4nEfCthrQ94XfFQA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_K1W4LD4nEfCthrQ94XfFQA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1W4LT4nEfCthrQ94XfFQA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_K1KDwT4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1KDwj4nEfCthrQ94XfFQA" x="450" y="270" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_K1Kq0D4nEfCthrQ94XfFQA" type="2001" element="_K0qUhD4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K1LR4D4nEfCthrQ94XfFQA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_K1LR4T4nEfCthrQ94XfFQA" x="31" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1W4Lj4nEfCthrQ94XfFQA" type="3003" element="_K0qUhT4nEfCthrQ94XfFQA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_K1W4Lz4nEfCthrQ94XfFQA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1W4MD4nEfCthrQ94XfFQA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_K1Kq0T4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1Kq0j4nEfCthrQ94XfFQA" x="540" y="360" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_K1L48D4nEfCthrQ94XfFQA" type="2001" element="_K0qUhz4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K1MgAD4nEfCthrQ94XfFQA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_K1MgAT4nEfCthrQ94XfFQA" x="31" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1W4MT4nEfCthrQ94XfFQA" type="3003" element="_K0qUiD4nEfCthrQ94XfFQA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_K1W4Mj4nEfCthrQ94XfFQA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1W4Mz4nEfCthrQ94XfFQA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_K1L48T4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1L48j4nEfCthrQ94XfFQA" x="540" y="450" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_K1NHED4nEfCthrQ94XfFQA" type="2001" element="_K0qUij4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K1NHEz4nEfCthrQ94XfFQA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_K1NHFD4nEfCthrQ94XfFQA" x="31" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1XfID4nEfCthrQ94XfFQA" type="3003" element="_K0q7kD4nEfCthrQ94XfFQA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_K1XfIT4nEfCthrQ94XfFQA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1XfIj4nEfCthrQ94XfFQA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_K1NHET4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1NHEj4nEfCthrQ94XfFQA" x="630" y="450" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_K1NHFT4nEfCthrQ94XfFQA" type="2001" element="_K0q7kj4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K1NHGD4nEfCthrQ94XfFQA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_K1NHGT4nEfCthrQ94XfFQA" x="31" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1XfIz4nEfCthrQ94XfFQA" type="3003" element="_K0rioD4nEfCthrQ94XfFQA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_K1XfJD4nEfCthrQ94XfFQA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1XfJT4nEfCthrQ94XfFQA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_K1NHFj4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1NHFz4nEfCthrQ94XfFQA" x="720" y="450" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_K1NuID4nEfCthrQ94XfFQA" type="2001" element="_K0sJsD4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K1NuIz4nEfCthrQ94XfFQA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_K1NuJD4nEfCthrQ94XfFQA" x="31" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1XfJj4nEfCthrQ94XfFQA" type="3003" element="_K0sJsT4nEfCthrQ94XfFQA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_K1XfJz4nEfCthrQ94XfFQA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1XfKD4nEfCthrQ94XfFQA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_K1NuIT4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1NuIj4nEfCthrQ94XfFQA" x="360" y="450" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_K1O8QD4nEfCthrQ94XfFQA" type="2001" element="_K0sJsz4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K1O8Qz4nEfCthrQ94XfFQA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_K1O8RD4nEfCthrQ94XfFQA" x="31" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1XfKT4nEfCthrQ94XfFQA" type="3016" element="_K0sJtD4nEfCthrQ94XfFQA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_K1XfKj4nEfCthrQ94XfFQA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1XfKz4nEfCthrQ94XfFQA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_K1O8QT4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1O8Qj4nEfCthrQ94XfFQA" x="630" y="360" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_K1O8RT4nEfCthrQ94XfFQA" type="2001" element="_K0sJtj4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K1O8SD4nEfCthrQ94XfFQA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_K1O8ST4nEfCthrQ94XfFQA" x="31" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1YGMD4nEfCthrQ94XfFQA" type="3016" element="_K0sJtz4nEfCthrQ94XfFQA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_K1YGMT4nEfCthrQ94XfFQA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1YGMj4nEfCthrQ94XfFQA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_K1O8Rj4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1O8Rz4nEfCthrQ94XfFQA" x="720" y="360" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_K1O8Sj4nEfCthrQ94XfFQA" type="2001" element="_K0tX0T4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K1PjUD4nEfCthrQ94XfFQA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_K1PjUT4nEfCthrQ94XfFQA" x="31" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1YGMz4nEfCthrQ94XfFQA" type="3016" element="_K0tX0j4nEfCthrQ94XfFQA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_K1YGND4nEfCthrQ94XfFQA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1YGNT4nEfCthrQ94XfFQA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_K1O8Sz4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1O8TD4nEfCthrQ94XfFQA" x="810" y="360" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_K1PjUj4nEfCthrQ94XfFQA" type="2001" element="_K0t-4D4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K1PjVT4nEfCthrQ94XfFQA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_K1PjVj4nEfCthrQ94XfFQA" x="31" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1YtQD4nEfCthrQ94XfFQA" type="3003" element="_K0t-4T4nEfCthrQ94XfFQA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_K1YtQT4nEfCthrQ94XfFQA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1YtQj4nEfCthrQ94XfFQA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_K1PjUz4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1PjVD4nEfCthrQ94XfFQA" x="630" y="270" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_K1QxcD4nEfCthrQ94XfFQA" type="2001" element="_K0ul8T4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K1Qxcz4nEfCthrQ94XfFQA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_K1QxdD4nEfCthrQ94XfFQA" x="31" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1YtQz4nEfCthrQ94XfFQA" type="3003" element="_K0ul8j4nEfCthrQ94XfFQA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_K1YtRD4nEfCthrQ94XfFQA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1YtRT4nEfCthrQ94XfFQA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_K1QxcT4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1Qxcj4nEfCthrQ94XfFQA" x="720" y="270" width="30" height="30"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_K1QxdT4nEfCthrQ94XfFQA" type="2001" element="_K0ul9D4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K1R_kD4nEfCthrQ94XfFQA" type="5002">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_K1R_kT4nEfCthrQ94XfFQA" x="31" y="7"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1YtRj4nEfCthrQ94XfFQA" type="3003" element="_K0ul9T4nEfCthrQ94XfFQA">
+            <styles xmi:type="notation:ShapeStyle" xmi:id="_K1YtRz4nEfCthrQ94XfFQA" fontName="Segoe UI"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1YtSD4nEfCthrQ94XfFQA"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_K1Qxdj4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1Qxdz4nEfCthrQ94XfFQA" x="270" y="360" width="30" height="30"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_K0gjgj4nEfCthrQ94XfFQA"/>
+        <edges xmi:type="notation:Edge" xmi:id="_K1Z7YD4nEfCthrQ94XfFQA" type="4001" element="_K0ul9z4nEfCthrQ94XfFQA" source="_K05lED4nEfCthrQ94XfFQA" target="_K06zMD4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K1Z7ZD4nEfCthrQ94XfFQA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1Z7ZT4nEfCthrQ94XfFQA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1Z7Zj4nEfCthrQ94XfFQA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1Z7Zz4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1Z7aD4nEfCthrQ94XfFQA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1Z7aT4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_K1Z7YT4nEfCthrQ94XfFQA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_K1Z7Yj4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_K1Z7Yz4nEfCthrQ94XfFQA" points="[0, 0, 270, 60]$[-270, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1aicD4nEfCthrQ94XfFQA" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1aicT4nEfCthrQ94XfFQA" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_K1aicj4nEfCthrQ94XfFQA" type="4001" element="_K0vNAD4nEfCthrQ94XfFQA" source="_K05lED4nEfCthrQ94XfFQA" target="_K06zNT4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K1aidj4nEfCthrQ94XfFQA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1aidz4nEfCthrQ94XfFQA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1aieD4nEfCthrQ94XfFQA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1aieT4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1aiej4nEfCthrQ94XfFQA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1aiez4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_K1aicz4nEfCthrQ94XfFQA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_K1aidD4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_K1aidT4nEfCthrQ94XfFQA" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1aifD4nEfCthrQ94XfFQA" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1aifT4nEfCthrQ94XfFQA" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_K1aifj4nEfCthrQ94XfFQA" type="4001" element="_K0vNBT4nEfCthrQ94XfFQA" source="_K05lED4nEfCthrQ94XfFQA" target="_K1FLQj4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K1aigj4nEfCthrQ94XfFQA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1aigz4nEfCthrQ94XfFQA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1aihD4nEfCthrQ94XfFQA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1aihT4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1aihj4nEfCthrQ94XfFQA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1aihz4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_K1aifz4nEfCthrQ94XfFQA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_K1aigD4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_K1aigT4nEfCthrQ94XfFQA" points="[0, 0, 360, 60]$[-360, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1aiiD4nEfCthrQ94XfFQA" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1aiiT4nEfCthrQ94XfFQA" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_K1aiij4nEfCthrQ94XfFQA" type="4001" element="_K0vNCj4nEfCthrQ94XfFQA" source="_K05lED4nEfCthrQ94XfFQA" target="_K1L48D4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K1aijj4nEfCthrQ94XfFQA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1aijz4nEfCthrQ94XfFQA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1bJgD4nEfCthrQ94XfFQA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1bJgT4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1bJgj4nEfCthrQ94XfFQA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1bJgz4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_K1aiiz4nEfCthrQ94XfFQA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_K1aijD4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_K1aijT4nEfCthrQ94XfFQA" points="[0, 0, -90, 60]$[90, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1bJhD4nEfCthrQ94XfFQA" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1bJhT4nEfCthrQ94XfFQA" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_K1bJhj4nEfCthrQ94XfFQA" type="4001" element="_K0wbJD4nEfCthrQ94XfFQA" source="_K05lED4nEfCthrQ94XfFQA" target="_K1NHED4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K1bJij4nEfCthrQ94XfFQA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1bJiz4nEfCthrQ94XfFQA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1bJjD4nEfCthrQ94XfFQA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1bJjT4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1bJjj4nEfCthrQ94XfFQA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1bJjz4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_K1bJhz4nEfCthrQ94XfFQA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_K1bJiD4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_K1bJiT4nEfCthrQ94XfFQA" points="[0, 0, -180, 60]$[180, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1bJkD4nEfCthrQ94XfFQA" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1bJkT4nEfCthrQ94XfFQA" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_K1bJkj4nEfCthrQ94XfFQA" type="4001" element="_K0wbKT4nEfCthrQ94XfFQA" source="_K05lED4nEfCthrQ94XfFQA" target="_K1NHFT4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K1bwkD4nEfCthrQ94XfFQA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1bwkT4nEfCthrQ94XfFQA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1bwkj4nEfCthrQ94XfFQA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1bwkz4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1bwlD4nEfCthrQ94XfFQA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1bwlT4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_K1bJkz4nEfCthrQ94XfFQA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_K1bJlD4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_K1bJlT4nEfCthrQ94XfFQA" points="[0, 0, -270, 60]$[270, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1bwlj4nEfCthrQ94XfFQA" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1bwlz4nEfCthrQ94XfFQA" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_K1bwmD4nEfCthrQ94XfFQA" type="4001" element="_K0wbLj4nEfCthrQ94XfFQA" source="_K05lED4nEfCthrQ94XfFQA" target="_K1NuID4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K1c-sD4nEfCthrQ94XfFQA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1c-sT4nEfCthrQ94XfFQA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1c-sj4nEfCthrQ94XfFQA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1c-sz4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1c-tD4nEfCthrQ94XfFQA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1c-tT4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_K1bwmT4nEfCthrQ94XfFQA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_K1bwmj4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_K1bwmz4nEfCthrQ94XfFQA" points="[0, 0, 90, 60]$[-90, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1c-tj4nEfCthrQ94XfFQA" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1c-tz4nEfCthrQ94XfFQA" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_K1c-uD4nEfCthrQ94XfFQA" type="4001" element="_K0wbMz4nEfCthrQ94XfFQA" source="_K1NuID4nEfCthrQ94XfFQA" target="_K1QxdT4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K1eM0D4nEfCthrQ94XfFQA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1eM0T4nEfCthrQ94XfFQA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1eM0j4nEfCthrQ94XfFQA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1eM0z4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1eM1D4nEfCthrQ94XfFQA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1eM1T4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_K1c-uT4nEfCthrQ94XfFQA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_K1c-uj4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_K1c-uz4nEfCthrQ94XfFQA" points="[0, 0, 90, 60]$[-90, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1eM1j4nEfCthrQ94XfFQA" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1eM1z4nEfCthrQ94XfFQA" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_K1eM2D4nEfCthrQ94XfFQA" type="4001" element="_K0xpRD4nEfCthrQ94XfFQA" source="_K06zMD4nEfCthrQ94XfFQA" target="_K0_rsj4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K1eM3D4nEfCthrQ94XfFQA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1eM3T4nEfCthrQ94XfFQA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1eM3j4nEfCthrQ94XfFQA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1eM3z4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1eM4D4nEfCthrQ94XfFQA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1eM4T4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_K1eM2T4nEfCthrQ94XfFQA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_K1eM2j4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_K1eM2z4nEfCthrQ94XfFQA" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1fa8D4nEfCthrQ94XfFQA" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1fa8T4nEfCthrQ94XfFQA" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_K1gCAD4nEfCthrQ94XfFQA" type="4001" element="_K0xpST4nEfCthrQ94XfFQA" source="_K06zNT4nEfCthrQ94XfFQA" target="_K1CvAD4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K1gCBD4nEfCthrQ94XfFQA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1gCBT4nEfCthrQ94XfFQA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1gCBj4nEfCthrQ94XfFQA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1gCBz4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1gCCD4nEfCthrQ94XfFQA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1gCCT4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_K1gCAT4nEfCthrQ94XfFQA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_K1gCAj4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_K1gCAz4nEfCthrQ94XfFQA" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1gpED4nEfCthrQ94XfFQA" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1gpET4nEfCthrQ94XfFQA" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_K1gpEj4nEfCthrQ94XfFQA" type="4001" element="_K0xpTj4nEfCthrQ94XfFQA" source="_K06zMD4nEfCthrQ94XfFQA" target="_K08BUD4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K1hQID4nEfCthrQ94XfFQA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1hQIT4nEfCthrQ94XfFQA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1hQIj4nEfCthrQ94XfFQA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1hQIz4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1hQJD4nEfCthrQ94XfFQA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1hQJT4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_K1gpEz4nEfCthrQ94XfFQA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_K1gpFD4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_K1gpFT4nEfCthrQ94XfFQA" points="[0, 0, 180, 60]$[-180, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1h3MD4nEfCthrQ94XfFQA" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1h3MT4nEfCthrQ94XfFQA" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_K1h3Mj4nEfCthrQ94XfFQA" type="4001" element="_K0yQUj4nEfCthrQ94XfFQA" source="_K06zNT4nEfCthrQ94XfFQA" target="_K08BVT4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K1h3Nj4nEfCthrQ94XfFQA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1h3Nz4nEfCthrQ94XfFQA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1h3OD4nEfCthrQ94XfFQA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1h3OT4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1h3Oj4nEfCthrQ94XfFQA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1h3Oz4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_K1h3Mz4nEfCthrQ94XfFQA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_K1h3ND4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_K1h3NT4nEfCthrQ94XfFQA" points="[0, 0, 90, 60]$[-90, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1h3PD4nEfCthrQ94XfFQA" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1h3PT4nEfCthrQ94XfFQA" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_K1h3Pj4nEfCthrQ94XfFQA" type="4001" element="_K0yQVz4nEfCthrQ94XfFQA" source="_K06zMD4nEfCthrQ94XfFQA" target="_K1HAcj4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K1h3Qj4nEfCthrQ94XfFQA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1h3Qz4nEfCthrQ94XfFQA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1h3RD4nEfCthrQ94XfFQA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1h3RT4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1h3Rj4nEfCthrQ94XfFQA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1h3Rz4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_K1h3Pz4nEfCthrQ94XfFQA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_K1h3QD4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_K1h3QT4nEfCthrQ94XfFQA" points="[0, 0, 90, 60]$[-90, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1ieQD4nEfCthrQ94XfFQA" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1ieQT4nEfCthrQ94XfFQA" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_K1ieQj4nEfCthrQ94XfFQA" type="4001" element="_K0yQXD4nEfCthrQ94XfFQA" source="_K06zNT4nEfCthrQ94XfFQA" target="_K1Kq0D4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K1ieRj4nEfCthrQ94XfFQA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1ieRz4nEfCthrQ94XfFQA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1ieSD4nEfCthrQ94XfFQA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1ieST4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1ieSj4nEfCthrQ94XfFQA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1ieSz4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_K1ieQz4nEfCthrQ94XfFQA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_K1ieRD4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_K1ieRT4nEfCthrQ94XfFQA" points="[0, 0, -90, 60]$[90, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1ieTD4nEfCthrQ94XfFQA" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1ieTT4nEfCthrQ94XfFQA" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_K1jFUD4nEfCthrQ94XfFQA" type="4001" element="_K0y3YD4nEfCthrQ94XfFQA" source="_K1L48D4nEfCthrQ94XfFQA" target="_K1O8QD4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K1jFVD4nEfCthrQ94XfFQA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1jFVT4nEfCthrQ94XfFQA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1jFVj4nEfCthrQ94XfFQA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1jFVz4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1jFWD4nEfCthrQ94XfFQA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1jFWT4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_K1jFUT4nEfCthrQ94XfFQA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_K1jFUj4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_K1jFUz4nEfCthrQ94XfFQA" points="[0, 0, -90, 60]$[90, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1jFWj4nEfCthrQ94XfFQA" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1jFWz4nEfCthrQ94XfFQA" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_K1jFXD4nEfCthrQ94XfFQA" type="4001" element="_K0y3ZT4nEfCthrQ94XfFQA" source="_K1NHED4nEfCthrQ94XfFQA" target="_K1O8RT4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K1jsYD4nEfCthrQ94XfFQA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1jsYT4nEfCthrQ94XfFQA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1jsYj4nEfCthrQ94XfFQA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1jsYz4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1jsZD4nEfCthrQ94XfFQA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1jsZT4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_K1jFXT4nEfCthrQ94XfFQA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_K1jFXj4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_K1jFXz4nEfCthrQ94XfFQA" points="[0, 0, -90, 60]$[90, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1jsZj4nEfCthrQ94XfFQA" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1jsZz4nEfCthrQ94XfFQA" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_K1jsaD4nEfCthrQ94XfFQA" type="4001" element="_K0y3aj4nEfCthrQ94XfFQA" source="_K1NHFT4nEfCthrQ94XfFQA" target="_K1O8Sj4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K1jsbD4nEfCthrQ94XfFQA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1jsbT4nEfCthrQ94XfFQA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1jsbj4nEfCthrQ94XfFQA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1jsbz4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1jscD4nEfCthrQ94XfFQA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1jscT4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_K1jsaT4nEfCthrQ94XfFQA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_K1jsaj4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_K1jsaz4nEfCthrQ94XfFQA" points="[0, 0, -90, 60]$[90, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1kTcD4nEfCthrQ94XfFQA" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1kTcT4nEfCthrQ94XfFQA" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_K1kTcj4nEfCthrQ94XfFQA" type="4001" element="_K0y3bz4nEfCthrQ94XfFQA" source="_K1O8QD4nEfCthrQ94XfFQA" target="_K1PjUj4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K1kTdj4nEfCthrQ94XfFQA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1kTdz4nEfCthrQ94XfFQA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1kTeD4nEfCthrQ94XfFQA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1kTeT4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1kTej4nEfCthrQ94XfFQA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1kTez4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_K1kTcz4nEfCthrQ94XfFQA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_K1kTdD4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_K1kTdT4nEfCthrQ94XfFQA" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1kTfD4nEfCthrQ94XfFQA" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1kTfT4nEfCthrQ94XfFQA" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_K1k6gD4nEfCthrQ94XfFQA" type="4001" element="_K0zecj4nEfCthrQ94XfFQA" source="_K1O8RT4nEfCthrQ94XfFQA" target="_K1QxcD4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K1k6hD4nEfCthrQ94XfFQA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1k6hT4nEfCthrQ94XfFQA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1k6hj4nEfCthrQ94XfFQA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1k6hz4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1k6iD4nEfCthrQ94XfFQA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1k6iT4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_K1k6gT4nEfCthrQ94XfFQA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_K1k6gj4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_K1k6gz4nEfCthrQ94XfFQA" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1k6ij4nEfCthrQ94XfFQA" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1k6iz4nEfCthrQ94XfFQA" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_K1k6jD4nEfCthrQ94XfFQA" type="4001" element="_K0zedz4nEfCthrQ94XfFQA" source="_K1PjUj4nEfCthrQ94XfFQA" target="_K1DWED4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K1lhkD4nEfCthrQ94XfFQA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1lhkT4nEfCthrQ94XfFQA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1lhkj4nEfCthrQ94XfFQA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1lhkz4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1lhlD4nEfCthrQ94XfFQA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1lhlT4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_K1k6jT4nEfCthrQ94XfFQA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_K1k6jj4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_K1k6jz4nEfCthrQ94XfFQA" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1lhlj4nEfCthrQ94XfFQA" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1lhlz4nEfCthrQ94XfFQA" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_K1lhmD4nEfCthrQ94XfFQA" type="4001" element="_K00FhD4nEfCthrQ94XfFQA" source="_K1QxcD4nEfCthrQ94XfFQA" target="_K1DWFT4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K1mvsD4nEfCthrQ94XfFQA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1mvsT4nEfCthrQ94XfFQA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1mvsj4nEfCthrQ94XfFQA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1mvsz4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1nWwD4nEfCthrQ94XfFQA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1nWwT4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_K1lhmT4nEfCthrQ94XfFQA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_K1lhmj4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_K1lhmz4nEfCthrQ94XfFQA" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1n90D4nEfCthrQ94XfFQA" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1n90T4nEfCthrQ94XfFQA" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_K1n90j4nEfCthrQ94XfFQA" type="4001" element="_K00skD4nEfCthrQ94XfFQA" source="_K1QxdT4nEfCthrQ94XfFQA" target="_K1D9ID4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K1ok4z4nEfCthrQ94XfFQA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1ok5D4nEfCthrQ94XfFQA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1ok5T4nEfCthrQ94XfFQA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1ok5j4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1ok5z4nEfCthrQ94XfFQA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1ok6D4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_K1ok4D4nEfCthrQ94XfFQA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_K1ok4T4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_K1ok4j4nEfCthrQ94XfFQA" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1pL8D4nEfCthrQ94XfFQA" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1pL8T4nEfCthrQ94XfFQA" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_K1pL8j4nEfCthrQ94XfFQA" type="4001" element="_K01ToD4nEfCthrQ94XfFQA" source="_K0-dkD4nEfCthrQ94XfFQA" target="_K1FyUj4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K1pL9j4nEfCthrQ94XfFQA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1pzAD4nEfCthrQ94XfFQA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1pzAT4nEfCthrQ94XfFQA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1pzAj4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1pzAz4nEfCthrQ94XfFQA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1pzBD4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_K1pL8z4nEfCthrQ94XfFQA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_K1pL9D4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_K1pL9T4nEfCthrQ94XfFQA" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1qaED4nEfCthrQ94XfFQA" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1qaET4nEfCthrQ94XfFQA" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_K1qaEj4nEfCthrQ94XfFQA" type="4001" element="_K016sD4nEfCthrQ94XfFQA" source="_K0_rsj4nEfCthrQ94XfFQA" target="_K1FyVz4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K1rBID4nEfCthrQ94XfFQA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1rBIT4nEfCthrQ94XfFQA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1rBIj4nEfCthrQ94XfFQA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1rBIz4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1rBJD4nEfCthrQ94XfFQA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1rBJT4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_K1qaEz4nEfCthrQ94XfFQA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_K1qaFD4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_K1qaFT4nEfCthrQ94XfFQA" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1roMD4nEfCthrQ94XfFQA" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1roMT4nEfCthrQ94XfFQA" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_K1roMj4nEfCthrQ94XfFQA" type="4001" element="_K016tT4nEfCthrQ94XfFQA" source="_K1A50D4nEfCthrQ94XfFQA" target="_K1IOkD4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K1roNj4nEfCthrQ94XfFQA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1roNz4nEfCthrQ94XfFQA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1roOD4nEfCthrQ94XfFQA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1roOT4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1roOj4nEfCthrQ94XfFQA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1roOz4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_K1roMz4nEfCthrQ94XfFQA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_K1roND4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_K1roNT4nEfCthrQ94XfFQA" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1roPD4nEfCthrQ94XfFQA" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1roPT4nEfCthrQ94XfFQA" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_K1roPj4nEfCthrQ94XfFQA" type="4001" element="_K016uj4nEfCthrQ94XfFQA" source="_K1CvAD4nEfCthrQ94XfFQA" target="_K1KDwD4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K1roQj4nEfCthrQ94XfFQA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1roQz4nEfCthrQ94XfFQA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1roRD4nEfCthrQ94XfFQA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1roRT4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1roRj4nEfCthrQ94XfFQA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1roRz4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_K1roPz4nEfCthrQ94XfFQA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_K1roQD4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_K1roQT4nEfCthrQ94XfFQA" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1roSD4nEfCthrQ94XfFQA" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1roST4nEfCthrQ94XfFQA" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_K1roSj4nEfCthrQ94XfFQA" type="4001" element="_K016vz4nEfCthrQ94XfFQA" source="_K09PcD4nEfCthrQ94XfFQA" target="_K0-dkD4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K1roTj4nEfCthrQ94XfFQA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1roTz4nEfCthrQ94XfFQA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1roUD4nEfCthrQ94XfFQA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1roUT4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1roUj4nEfCthrQ94XfFQA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1roUz4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_K1roSz4nEfCthrQ94XfFQA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_K1roTD4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_K1roTT4nEfCthrQ94XfFQA" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1sPQD4nEfCthrQ94XfFQA" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1sPQT4nEfCthrQ94XfFQA" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_K1sPQj4nEfCthrQ94XfFQA" type="4001" element="_K016xD4nEfCthrQ94XfFQA" source="_K09PdT4nEfCthrQ94XfFQA" target="_K1A50D4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K1sPRj4nEfCthrQ94XfFQA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1sPRz4nEfCthrQ94XfFQA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1sPSD4nEfCthrQ94XfFQA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1sPST4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1sPSj4nEfCthrQ94XfFQA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1sPSz4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_K1sPQz4nEfCthrQ94XfFQA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_K1sPRD4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_K1sPRT4nEfCthrQ94XfFQA" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1tdYD4nEfCthrQ94XfFQA" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1tdYT4nEfCthrQ94XfFQA" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_K1tdYj4nEfCthrQ94XfFQA" type="4001" element="_K02hxD4nEfCthrQ94XfFQA" source="_K08BWj4nEfCthrQ94XfFQA" target="_K09PcD4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K1tdZj4nEfCthrQ94XfFQA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1tdZz4nEfCthrQ94XfFQA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1tdaD4nEfCthrQ94XfFQA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1tdaT4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1tdaj4nEfCthrQ94XfFQA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1tdaz4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_K1tdYz4nEfCthrQ94XfFQA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_K1tdZD4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_K1tdZT4nEfCthrQ94XfFQA" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1tdbD4nEfCthrQ94XfFQA" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1tdbT4nEfCthrQ94XfFQA" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_K1tdbj4nEfCthrQ94XfFQA" type="4001" element="_K03I1D4nEfCthrQ94XfFQA" source="_K08oYj4nEfCthrQ94XfFQA" target="_K09PdT4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K1tdcj4nEfCthrQ94XfFQA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1tdcz4nEfCthrQ94XfFQA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1tddD4nEfCthrQ94XfFQA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1tddT4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1tddj4nEfCthrQ94XfFQA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1tddz4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_K1tdbz4nEfCthrQ94XfFQA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_K1tdcD4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_K1tdcT4nEfCthrQ94XfFQA" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1tdeD4nEfCthrQ94XfFQA" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1tdeT4nEfCthrQ94XfFQA" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_K1tdej4nEfCthrQ94XfFQA" type="4001" element="_K03v4j4nEfCthrQ94XfFQA" source="_K08BUD4nEfCthrQ94XfFQA" target="_K08BWj4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K1tdfj4nEfCthrQ94XfFQA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1tdfz4nEfCthrQ94XfFQA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1tdgD4nEfCthrQ94XfFQA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1tdgT4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1tdgj4nEfCthrQ94XfFQA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1tdgz4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_K1tdez4nEfCthrQ94XfFQA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_K1tdfD4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_K1tdfT4nEfCthrQ94XfFQA" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1uEcD4nEfCthrQ94XfFQA" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1uEcT4nEfCthrQ94XfFQA" id="(0.5,1.0)"/>
+        </edges>
+        <edges xmi:type="notation:Edge" xmi:id="_K1uEcj4nEfCthrQ94XfFQA" type="4001" element="_K03v5z4nEfCthrQ94XfFQA" source="_K08BVT4nEfCthrQ94XfFQA" target="_K08oYj4nEfCthrQ94XfFQA">
+          <children xmi:type="notation:Node" xmi:id="_K1uEdj4nEfCthrQ94XfFQA" type="6001">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1uEdz4nEfCthrQ94XfFQA" y="-10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1uEeD4nEfCthrQ94XfFQA" type="6002">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1uEeT4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_K1uEej4nEfCthrQ94XfFQA" type="6003">
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_K1uEez4nEfCthrQ94XfFQA" y="10"/>
+          </children>
+          <styles xmi:type="notation:ConnectorStyle" xmi:id="_K1uEcz4nEfCthrQ94XfFQA"/>
+          <styles xmi:type="notation:FontStyle" xmi:id="_K1uEdD4nEfCthrQ94XfFQA" fontName="Segoe UI" fontHeight="12"/>
+          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_K1uEdT4nEfCthrQ94XfFQA" points="[0, 0, 0, 60]$[0, -60, 0, 0]"/>
+          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1uEfD4nEfCthrQ94XfFQA" id="(0.5,0.0)"/>
+          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_K1uEfT4nEfCthrQ94XfFQA" id="(0.5,1.0)"/>
+        </edges>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_K04W8j4nEfCthrQ94XfFQA" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_K04W8z4nEfCthrQ94XfFQA"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_K0k08D4nEfCthrQ94XfFQA" name="BeltMotor" outgoingEdges="_K0ul9z4nEfCthrQ94XfFQA _K0vNAD4nEfCthrQ94XfFQA _K0vNBT4nEfCthrQ94XfFQA _K0vNCj4nEfCthrQ94XfFQA _K0wbJD4nEfCthrQ94XfFQA _K0wbKT4nEfCthrQ94XfFQA _K0wbLj4nEfCthrQ94XfFQA" width="3" height="3">
+      <target xmi:type="metamodeloEnorm:Actuator" href="Scenario1.metamodeloenorm#//@hasActuator.0"/>
+      <semanticElements xmi:type="metamodeloEnorm:Actuator" href="Scenario1.metamodeloenorm#//@hasActuator.0"/>
+      <ownedStyle xmi:type="diagram:Lozenge" uid="_K0k08T4nEfCthrQ94XfFQA" color="0,0,0">
+        <description xmi:type="style:LozengeNodeDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='ActuatorNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='ActuatorNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_K0lcAD4nEfCthrQ94XfFQA" name="Sensor1" outgoingEdges="_K0xpRD4nEfCthrQ94XfFQA _K0xpTj4nEfCthrQ94XfFQA _K0yQVz4nEfCthrQ94XfFQA" incomingEdges="_K0ul9z4nEfCthrQ94XfFQA" width="3" height="3">
+      <target xmi:type="metamodeloEnorm:Sensor" href="Scenario1.metamodeloenorm#//@hasActuator.0/@isConnectedTo.0"/>
+      <semanticElements xmi:type="metamodeloEnorm:Sensor" href="Scenario1.metamodeloenorm#//@hasActuator.0/@isConnectedTo.0"/>
+      <ownedStyle xmi:type="diagram:Ellipse" uid="_K0lcAT4nEfCthrQ94XfFQA" color="114,159,207">
+        <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='SensorNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='SensorNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_K0lcAz4nEfCthrQ94XfFQA" name="Sensor2" outgoingEdges="_K0xpST4nEfCthrQ94XfFQA _K0yQUj4nEfCthrQ94XfFQA _K0yQXD4nEfCthrQ94XfFQA" incomingEdges="_K0vNAD4nEfCthrQ94XfFQA" width="3" height="3">
+      <target xmi:type="metamodeloEnorm:Sensor" href="Scenario1.metamodeloenorm#//@hasActuator.0/@isConnectedTo.1"/>
+      <semanticElements xmi:type="metamodeloEnorm:Sensor" href="Scenario1.metamodeloenorm#//@hasActuator.0/@isConnectedTo.1"/>
+      <ownedStyle xmi:type="diagram:Ellipse" uid="_K0lcBD4nEfCthrQ94XfFQA" color="114,159,207">
+        <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='SensorNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='SensorNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_K0mqID4nEfCthrQ94XfFQA" name="Normalization A" outgoingEdges="_K03v4j4nEfCthrQ94XfFQA" incomingEdges="_K0xpTj4nEfCthrQ94XfFQA" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="metamodeloEnorm:DataMapping" href="Scenario1.metamodeloenorm#//@hasActuator.0/@isConnectedTo.0/@mapsThroughDataMapping"/>
+      <semanticElements xmi:type="metamodeloEnorm:DataMapping" href="Scenario1.metamodeloenorm#//@hasActuator.0/@isConnectedTo.0/@mapsThroughDataMapping"/>
+      <ownedStyle xmi:type="diagram:Ellipse" uid="_K0mqIT4nEfCthrQ94XfFQA" labelSize="12" labelPosition="node" color="233,185,110">
+        <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='DataMapping']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='DataMapping']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_K0mqIz4nEfCthrQ94XfFQA" name="Normalization B" outgoingEdges="_K03v5z4nEfCthrQ94XfFQA" incomingEdges="_K0yQUj4nEfCthrQ94XfFQA" width="3" height="3" resizeKind="NSEW">
+      <target xmi:type="metamodeloEnorm:DataMapping" href="Scenario1.metamodeloenorm#//@hasActuator.0/@isConnectedTo.1/@mapsThroughDataMapping"/>
+      <semanticElements xmi:type="metamodeloEnorm:DataMapping" href="Scenario1.metamodeloenorm#//@hasActuator.0/@isConnectedTo.1/@mapsThroughDataMapping"/>
+      <ownedStyle xmi:type="diagram:Ellipse" uid="_K0mqJD4nEfCthrQ94XfFQA" labelSize="12" labelPosition="node" color="233,185,110">
+        <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='DataMapping']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='DataMapping']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_K0mqJj4nEfCthrQ94XfFQA" name="BeltDataCore" outgoingEdges="_K02hxD4nEfCthrQ94XfFQA" incomingEdges="_K03v4j4nEfCthrQ94XfFQA" width="3" height="3">
+      <target xmi:type="metamodeloEnorm:Datacore" href="Scenario1.metamodeloenorm#//@hasActuator.0/@isConnectedTo.0/@mapsThroughDataMapping/@storesDatainDataCore"/>
+      <semanticElements xmi:type="metamodeloEnorm:Datacore" href="Scenario1.metamodeloenorm#//@hasActuator.0/@isConnectedTo.0/@mapsThroughDataMapping/@storesDatainDataCore"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_K0mqJz4nEfCthrQ94XfFQA">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='DatacoreNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='DatacoreNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_K0nRMT4nEfCthrQ94XfFQA" name="BeltDataCore" outgoingEdges="_K03I1D4nEfCthrQ94XfFQA" incomingEdges="_K03v5z4nEfCthrQ94XfFQA" width="3" height="3">
+      <target xmi:type="metamodeloEnorm:Datacore" href="Scenario1.metamodeloenorm#//@hasActuator.0/@isConnectedTo.1/@mapsThroughDataMapping/@storesDatainDataCore"/>
+      <semanticElements xmi:type="metamodeloEnorm:Datacore" href="Scenario1.metamodeloenorm#//@hasActuator.0/@isConnectedTo.1/@mapsThroughDataMapping/@storesDatainDataCore"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_K0nRMj4nEfCthrQ94XfFQA">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='DatacoreNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='DatacoreNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_K0nRND4nEfCthrQ94XfFQA" name="ReadingA" outgoingEdges="_K016vz4nEfCthrQ94XfFQA" incomingEdges="_K02hxD4nEfCthrQ94XfFQA" width="3" height="3">
+      <target xmi:type="metamodeloEnorm:List" href="Scenario1.metamodeloenorm#//@hasActuator.0/@isConnectedTo.0/@mapsThroughDataMapping/@storesDatainDataCore/@hasList"/>
+      <semanticElements xmi:type="metamodeloEnorm:List" href="Scenario1.metamodeloenorm#//@hasActuator.0/@isConnectedTo.0/@mapsThroughDataMapping/@storesDatainDataCore/@hasList"/>
+      <ownedStyle xmi:type="diagram:Ellipse" uid="_K0nRNT4nEfCthrQ94XfFQA" color="138,226,52">
+        <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='ListNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='ListNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_K0nRNz4nEfCthrQ94XfFQA" name="ReadingB" outgoingEdges="_K016xD4nEfCthrQ94XfFQA" incomingEdges="_K03I1D4nEfCthrQ94XfFQA" width="3" height="3">
+      <target xmi:type="metamodeloEnorm:List" href="Scenario1.metamodeloenorm#//@hasActuator.0/@isConnectedTo.1/@mapsThroughDataMapping/@storesDatainDataCore/@hasList"/>
+      <semanticElements xmi:type="metamodeloEnorm:List" href="Scenario1.metamodeloenorm#//@hasActuator.0/@isConnectedTo.1/@mapsThroughDataMapping/@storesDatainDataCore/@hasList"/>
+      <ownedStyle xmi:type="diagram:Ellipse" uid="_K0nROD4nEfCthrQ94XfFQA" color="138,226,52">
+        <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='ListNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='ListNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_K0nROj4nEfCthrQ94XfFQA" name="NormalizedValues" outgoingEdges="_K01ToD4nEfCthrQ94XfFQA" incomingEdges="_K016vz4nEfCthrQ94XfFQA" width="3" height="3">
+      <target xmi:type="metamodeloEnorm:Attribute" href="Scenario1.metamodeloenorm#//@hasActuator.0/@isConnectedTo.0/@mapsThroughDataMapping/@storesDatainDataCore/@hasList/@hasAttributes.0"/>
+      <semanticElements xmi:type="metamodeloEnorm:Attribute" href="Scenario1.metamodeloenorm#//@hasActuator.0/@isConnectedTo.0/@mapsThroughDataMapping/@storesDatainDataCore/@hasList/@hasAttributes.0"/>
+      <ownedStyle xmi:type="diagram:Lozenge" uid="_K0nROz4nEfCthrQ94XfFQA" color="252,175,62">
+        <description xmi:type="style:LozengeNodeDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='AttributeNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='AttributeNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_K0nRPT4nEfCthrQ94XfFQA" name="RawValue" outgoingEdges="_K016sD4nEfCthrQ94XfFQA" incomingEdges="_K0xpRD4nEfCthrQ94XfFQA" width="3" height="3">
+      <target xmi:type="metamodeloEnorm:Attribute" href="Scenario1.metamodeloenorm#//@hasActuator.0/@isConnectedTo.0/@hasAttribute.0"/>
+      <semanticElements xmi:type="metamodeloEnorm:Attribute" href="Scenario1.metamodeloenorm#//@hasActuator.0/@isConnectedTo.0/@hasAttribute.0"/>
+      <ownedStyle xmi:type="diagram:Lozenge" uid="_K0ofUD4nEfCthrQ94XfFQA" color="252,175,62">
+        <description xmi:type="style:LozengeNodeDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='AttributeNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='AttributeNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_K0ofUj4nEfCthrQ94XfFQA" name="NormalizedValues" outgoingEdges="_K016tT4nEfCthrQ94XfFQA" incomingEdges="_K016xD4nEfCthrQ94XfFQA" width="3" height="3">
+      <target xmi:type="metamodeloEnorm:Attribute" href="Scenario1.metamodeloenorm#//@hasActuator.0/@isConnectedTo.1/@mapsThroughDataMapping/@storesDatainDataCore/@hasList/@hasAttributes.0"/>
+      <semanticElements xmi:type="metamodeloEnorm:Attribute" href="Scenario1.metamodeloenorm#//@hasActuator.0/@isConnectedTo.1/@mapsThroughDataMapping/@storesDatainDataCore/@hasList/@hasAttributes.0"/>
+      <ownedStyle xmi:type="diagram:Lozenge" uid="_K0ofUz4nEfCthrQ94XfFQA" color="252,175,62">
+        <description xmi:type="style:LozengeNodeDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='AttributeNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='AttributeNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_K0ofVT4nEfCthrQ94XfFQA" name="RawValue" outgoingEdges="_K016uj4nEfCthrQ94XfFQA" incomingEdges="_K0xpST4nEfCthrQ94XfFQA" width="3" height="3">
+      <target xmi:type="metamodeloEnorm:Attribute" href="Scenario1.metamodeloenorm#//@hasActuator.0/@isConnectedTo.1/@hasAttribute.0"/>
+      <semanticElements xmi:type="metamodeloEnorm:Attribute" href="Scenario1.metamodeloenorm#//@hasActuator.0/@isConnectedTo.1/@hasAttribute.0"/>
+      <ownedStyle xmi:type="diagram:Lozenge" uid="_K0ofVj4nEfCthrQ94XfFQA" color="252,175,62">
+        <description xmi:type="style:LozengeNodeDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='AttributeNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='AttributeNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_K0ofWD4nEfCthrQ94XfFQA" name="Message" incomingEdges="_K0zedz4nEfCthrQ94XfFQA" width="3" height="3">
+      <target xmi:type="metamodeloEnorm:Attribute" href="Scenario1.metamodeloenorm#//@hasActuator.0/@followsConditions.0/@triggersActions.0/@maySendNotification.0/@hasAttribute.0"/>
+      <semanticElements xmi:type="metamodeloEnorm:Attribute" href="Scenario1.metamodeloenorm#//@hasActuator.0/@followsConditions.0/@triggersActions.0/@maySendNotification.0/@hasAttribute.0"/>
+      <ownedStyle xmi:type="diagram:Lozenge" uid="_K0ofWT4nEfCthrQ94XfFQA" color="252,175,62">
+        <description xmi:type="style:LozengeNodeDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='AttributeNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='AttributeNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_K0ofWz4nEfCthrQ94XfFQA" name="Message" incomingEdges="_K00FhD4nEfCthrQ94XfFQA" width="3" height="3">
+      <target xmi:type="metamodeloEnorm:Attribute" href="Scenario1.metamodeloenorm#//@hasActuator.0/@followsConditions.1/@triggersActions.0/@maySendNotification.0/@hasAttribute.0"/>
+      <semanticElements xmi:type="metamodeloEnorm:Attribute" href="Scenario1.metamodeloenorm#//@hasActuator.0/@followsConditions.1/@triggersActions.0/@maySendNotification.0/@hasAttribute.0"/>
+      <ownedStyle xmi:type="diagram:Lozenge" uid="_K0ofXD4nEfCthrQ94XfFQA" color="252,175,62">
+        <description xmi:type="style:LozengeNodeDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='AttributeNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='AttributeNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_K0ofXj4nEfCthrQ94XfFQA" name="Message" incomingEdges="_K00skD4nEfCthrQ94XfFQA" width="3" height="3">
+      <target xmi:type="metamodeloEnorm:Attribute" href="Scenario1.metamodeloenorm#//@hasActuator.0/@followsNotificationProtocol/@hasNotification.0/@hasAttribute.0"/>
+      <semanticElements xmi:type="metamodeloEnorm:Attribute" href="Scenario1.metamodeloenorm#//@hasActuator.0/@followsNotificationProtocol/@hasNotification.0/@hasAttribute.0"/>
+      <ownedStyle xmi:type="diagram:Lozenge" uid="_K0pGYD4nEfCthrQ94XfFQA" color="252,175,62">
+        <description xmi:type="style:LozengeNodeDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='AttributeNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='AttributeNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_K0pGYj4nEfCthrQ94XfFQA" name="Estado" incomingEdges="_K0vNBT4nEfCthrQ94XfFQA" width="3" height="3">
+      <target xmi:type="metamodeloEnorm:Attribute" href="Scenario1.metamodeloenorm#//@hasActuator.0/@hasAttributes.0"/>
+      <semanticElements xmi:type="metamodeloEnorm:Attribute" href="Scenario1.metamodeloenorm#//@hasActuator.0/@hasAttributes.0"/>
+      <ownedStyle xmi:type="diagram:Lozenge" uid="_K0pGYz4nEfCthrQ94XfFQA" color="252,175,62">
+        <description xmi:type="style:LozengeNodeDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='AttributeNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='AttributeNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_K0pGZT4nEfCthrQ94XfFQA" name="AverageCalc" incomingEdges="_K01ToD4nEfCthrQ94XfFQA" width="3" height="3">
+      <target xmi:type="metamodeloEnorm:Conditions" href="Scenario1.metamodeloenorm#//@hasActuator.0/@isConnectedTo.0/@mapsThroughDataMapping/@storesDatainDataCore/@hasList/@hasAttributes.0/@hasConditions.0"/>
+      <semanticElements xmi:type="metamodeloEnorm:Conditions" href="Scenario1.metamodeloenorm#//@hasActuator.0/@isConnectedTo.0/@mapsThroughDataMapping/@storesDatainDataCore/@hasList/@hasAttributes.0/@hasConditions.0"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_K0pGZj4nEfCthrQ94XfFQA" color="173,127,168">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='ConditionNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='ConditionNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_K0pGaD4nEfCthrQ94XfFQA" name="OutlierDetection" incomingEdges="_K016sD4nEfCthrQ94XfFQA" width="3" height="3">
+      <target xmi:type="metamodeloEnorm:Conditions" href="Scenario1.metamodeloenorm#//@hasActuator.0/@isConnectedTo.0/@hasAttribute.0/@hasConditions.0"/>
+      <semanticElements xmi:type="metamodeloEnorm:Conditions" href="Scenario1.metamodeloenorm#//@hasActuator.0/@isConnectedTo.0/@hasAttribute.0/@hasConditions.0"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_K0pGaT4nEfCthrQ94XfFQA" color="173,127,168">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='ConditionNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='ConditionNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_K0pGaz4nEfCthrQ94XfFQA" name="NormalizeSignal" incomingEdges="_K0yQVz4nEfCthrQ94XfFQA" width="3" height="3">
+      <target xmi:type="metamodeloEnorm:Conditions" href="Scenario1.metamodeloenorm#//@hasActuator.0/@isConnectedTo.0/@followsConditions.0"/>
+      <semanticElements xmi:type="metamodeloEnorm:Conditions" href="Scenario1.metamodeloenorm#//@hasActuator.0/@isConnectedTo.0/@followsConditions.0"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_K0pGbD4nEfCthrQ94XfFQA" color="173,127,168">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='ConditionNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='ConditionNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_K0ptcT4nEfCthrQ94XfFQA" name="AverageCalc" incomingEdges="_K016tT4nEfCthrQ94XfFQA" width="3" height="3">
+      <target xmi:type="metamodeloEnorm:Conditions" href="Scenario1.metamodeloenorm#//@hasActuator.0/@isConnectedTo.1/@mapsThroughDataMapping/@storesDatainDataCore/@hasList/@hasAttributes.0/@hasConditions.0"/>
+      <semanticElements xmi:type="metamodeloEnorm:Conditions" href="Scenario1.metamodeloenorm#//@hasActuator.0/@isConnectedTo.1/@mapsThroughDataMapping/@storesDatainDataCore/@hasList/@hasAttributes.0/@hasConditions.0"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_K0ptcj4nEfCthrQ94XfFQA" color="173,127,168">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='ConditionNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='ConditionNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_K0qUgT4nEfCthrQ94XfFQA" name="OutlierDetection" incomingEdges="_K016uj4nEfCthrQ94XfFQA" width="3" height="3">
+      <target xmi:type="metamodeloEnorm:Conditions" href="Scenario1.metamodeloenorm#//@hasActuator.0/@isConnectedTo.1/@hasAttribute.0/@hasConditions.0"/>
+      <semanticElements xmi:type="metamodeloEnorm:Conditions" href="Scenario1.metamodeloenorm#//@hasActuator.0/@isConnectedTo.1/@hasAttribute.0/@hasConditions.0"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_K0qUgj4nEfCthrQ94XfFQA" color="173,127,168">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='ConditionNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='ConditionNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_K0qUhD4nEfCthrQ94XfFQA" name="NormalizeSignal" incomingEdges="_K0yQXD4nEfCthrQ94XfFQA" width="3" height="3">
+      <target xmi:type="metamodeloEnorm:Conditions" href="Scenario1.metamodeloenorm#//@hasActuator.0/@isConnectedTo.1/@followsConditions.0"/>
+      <semanticElements xmi:type="metamodeloEnorm:Conditions" href="Scenario1.metamodeloenorm#//@hasActuator.0/@isConnectedTo.1/@followsConditions.0"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_K0qUhT4nEfCthrQ94XfFQA" color="173,127,168">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='ConditionNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='ConditionNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_K0qUhz4nEfCthrQ94XfFQA" name="ObjectDetected" outgoingEdges="_K0y3YD4nEfCthrQ94XfFQA" incomingEdges="_K0vNCj4nEfCthrQ94XfFQA" width="3" height="3">
+      <target xmi:type="metamodeloEnorm:Conditions" href="Scenario1.metamodeloenorm#//@hasActuator.0/@followsConditions.0"/>
+      <semanticElements xmi:type="metamodeloEnorm:Conditions" href="Scenario1.metamodeloenorm#//@hasActuator.0/@followsConditions.0"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_K0qUiD4nEfCthrQ94XfFQA" color="173,127,168">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='ConditionNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='ConditionNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_K0qUij4nEfCthrQ94XfFQA" name="MaxRunTimeReached" outgoingEdges="_K0y3ZT4nEfCthrQ94XfFQA" incomingEdges="_K0wbJD4nEfCthrQ94XfFQA" width="3" height="3">
+      <target xmi:type="metamodeloEnorm:Conditions" href="Scenario1.metamodeloenorm#//@hasActuator.0/@followsConditions.1"/>
+      <semanticElements xmi:type="metamodeloEnorm:Conditions" href="Scenario1.metamodeloenorm#//@hasActuator.0/@followsConditions.1"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_K0q7kD4nEfCthrQ94XfFQA" color="173,127,168">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='ConditionNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='ConditionNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_K0q7kj4nEfCthrQ94XfFQA" name="CooldownActive" outgoingEdges="_K0y3aj4nEfCthrQ94XfFQA" incomingEdges="_K0wbKT4nEfCthrQ94XfFQA" width="3" height="3">
+      <target xmi:type="metamodeloEnorm:Conditions" href="Scenario1.metamodeloenorm#//@hasActuator.0/@followsConditions.2"/>
+      <semanticElements xmi:type="metamodeloEnorm:Conditions" href="Scenario1.metamodeloenorm#//@hasActuator.0/@followsConditions.2"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_K0rioD4nEfCthrQ94XfFQA" color="173,127,168">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='ConditionNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='ConditionNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_K0sJsD4nEfCthrQ94XfFQA" name="BeltStatus" outgoingEdges="_K0wbMz4nEfCthrQ94XfFQA" incomingEdges="_K0wbLj4nEfCthrQ94XfFQA" width="3" height="3">
+      <target xmi:type="metamodeloEnorm:NotificationProtocol" href="Scenario1.metamodeloenorm#//@hasActuator.0/@followsNotificationProtocol"/>
+      <semanticElements xmi:type="metamodeloEnorm:NotificationProtocol" href="Scenario1.metamodeloenorm#//@hasActuator.0/@followsNotificationProtocol"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_K0sJsT4nEfCthrQ94XfFQA" color="239,41,41">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='NotificationProtocolNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='NotificationProtocolNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_K0sJsz4nEfCthrQ94XfFQA" name="StartBelt" outgoingEdges="_K0y3bz4nEfCthrQ94XfFQA" incomingEdges="_K0y3YD4nEfCthrQ94XfFQA" width="3" height="3">
+      <target xmi:type="metamodeloEnorm:Action" href="Scenario1.metamodeloenorm#//@hasActuator.0/@followsConditions.0/@triggersActions.0"/>
+      <semanticElements xmi:type="metamodeloEnorm:Action" href="Scenario1.metamodeloenorm#//@hasActuator.0/@followsConditions.0/@triggersActions.0"/>
+      <ownedStyle xmi:type="diagram:Ellipse" uid="_K0sJtD4nEfCthrQ94XfFQA" color="252,233,79">
+        <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='ActionNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='ActionNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_K0sJtj4nEfCthrQ94XfFQA" name="StopBelt" outgoingEdges="_K0zecj4nEfCthrQ94XfFQA" incomingEdges="_K0y3ZT4nEfCthrQ94XfFQA" width="3" height="3">
+      <target xmi:type="metamodeloEnorm:Action" href="Scenario1.metamodeloenorm#//@hasActuator.0/@followsConditions.1/@triggersActions.0"/>
+      <semanticElements xmi:type="metamodeloEnorm:Action" href="Scenario1.metamodeloenorm#//@hasActuator.0/@followsConditions.1/@triggersActions.0"/>
+      <ownedStyle xmi:type="diagram:Ellipse" uid="_K0sJtz4nEfCthrQ94XfFQA" color="252,233,79">
+        <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='ActionNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='ActionNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_K0tX0T4nEfCthrQ94XfFQA" name="BlockStart" incomingEdges="_K0y3aj4nEfCthrQ94XfFQA" width="3" height="3">
+      <target xmi:type="metamodeloEnorm:Action" href="Scenario1.metamodeloenorm#//@hasActuator.0/@followsConditions.2/@triggersActions.0"/>
+      <semanticElements xmi:type="metamodeloEnorm:Action" href="Scenario1.metamodeloenorm#//@hasActuator.0/@followsConditions.2/@triggersActions.0"/>
+      <ownedStyle xmi:type="diagram:Ellipse" uid="_K0tX0j4nEfCthrQ94XfFQA" color="252,233,79">
+        <description xmi:type="style:EllipseNodeDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='ActionNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='ActionNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_K0t-4D4nEfCthrQ94XfFQA" name="StartNotification" outgoingEdges="_K0zedz4nEfCthrQ94XfFQA" incomingEdges="_K0y3bz4nEfCthrQ94XfFQA" width="3" height="3">
+      <target xmi:type="metamodeloEnorm:Notification" href="Scenario1.metamodeloenorm#//@hasActuator.0/@followsConditions.0/@triggersActions.0/@maySendNotification.0"/>
+      <semanticElements xmi:type="metamodeloEnorm:Notification" href="Scenario1.metamodeloenorm#//@hasActuator.0/@followsConditions.0/@triggersActions.0/@maySendNotification.0"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_K0t-4T4nEfCthrQ94XfFQA" color="255,255,255">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='NotificationNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='NotificationNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_K0ul8T4nEfCthrQ94XfFQA" name="MaxTimeWarning" outgoingEdges="_K00FhD4nEfCthrQ94XfFQA" incomingEdges="_K0zecj4nEfCthrQ94XfFQA" width="3" height="3">
+      <target xmi:type="metamodeloEnorm:Notification" href="Scenario1.metamodeloenorm#//@hasActuator.0/@followsConditions.1/@triggersActions.0/@maySendNotification.0"/>
+      <semanticElements xmi:type="metamodeloEnorm:Notification" href="Scenario1.metamodeloenorm#//@hasActuator.0/@followsConditions.1/@triggersActions.0/@maySendNotification.0"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_K0ul8j4nEfCthrQ94XfFQA" color="255,255,255">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='NotificationNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='NotificationNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_K0ul9D4nEfCthrQ94XfFQA" name="StatusUpdate" outgoingEdges="_K00skD4nEfCthrQ94XfFQA" incomingEdges="_K0wbMz4nEfCthrQ94XfFQA" width="3" height="3">
+      <target xmi:type="metamodeloEnorm:Notification" href="Scenario1.metamodeloenorm#//@hasActuator.0/@followsNotificationProtocol/@hasNotification.0"/>
+      <semanticElements xmi:type="metamodeloEnorm:Notification" href="Scenario1.metamodeloenorm#//@hasActuator.0/@followsNotificationProtocol/@hasNotification.0"/>
+      <ownedStyle xmi:type="diagram:Square" uid="_K0ul9T4nEfCthrQ94XfFQA" color="255,255,255">
+        <description xmi:type="style:SquareDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='NotificationNode']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:NodeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@nodeMappings[name='NotificationNode']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_K0ul9z4nEfCthrQ94XfFQA" sourceNode="_K0k08D4nEfCthrQ94XfFQA" targetNode="_K0lcAD4nEfCthrQ94XfFQA">
+      <target xmi:type="metamodeloEnorm:Actuator" href="Scenario1.metamodeloenorm#//@hasActuator.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_K0ul-D4nEfCthrQ94XfFQA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='ActuatorToSensor']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_K0ul-T4nEfCthrQ94XfFQA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='ActuatorToSensor']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_K0vNAD4nEfCthrQ94XfFQA" sourceNode="_K0k08D4nEfCthrQ94XfFQA" targetNode="_K0lcAz4nEfCthrQ94XfFQA">
+      <target xmi:type="metamodeloEnorm:Actuator" href="Scenario1.metamodeloenorm#//@hasActuator.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_K0vNAT4nEfCthrQ94XfFQA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='ActuatorToSensor']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_K0vNAj4nEfCthrQ94XfFQA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='ActuatorToSensor']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_K0vNBT4nEfCthrQ94XfFQA" sourceNode="_K0k08D4nEfCthrQ94XfFQA" targetNode="_K0pGYj4nEfCthrQ94XfFQA">
+      <target xmi:type="metamodeloEnorm:Actuator" href="Scenario1.metamodeloenorm#//@hasActuator.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_K0vNBj4nEfCthrQ94XfFQA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='ActuatorToAttributes']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_K0vNBz4nEfCthrQ94XfFQA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='ActuatorToAttributes']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_K0vNCj4nEfCthrQ94XfFQA" sourceNode="_K0k08D4nEfCthrQ94XfFQA" targetNode="_K0qUhz4nEfCthrQ94XfFQA">
+      <target xmi:type="metamodeloEnorm:Actuator" href="Scenario1.metamodeloenorm#//@hasActuator.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_K0wbID4nEfCthrQ94XfFQA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='ActuatorToConditions']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_K0wbIT4nEfCthrQ94XfFQA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='ActuatorToConditions']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_K0wbJD4nEfCthrQ94XfFQA" sourceNode="_K0k08D4nEfCthrQ94XfFQA" targetNode="_K0qUij4nEfCthrQ94XfFQA">
+      <target xmi:type="metamodeloEnorm:Actuator" href="Scenario1.metamodeloenorm#//@hasActuator.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_K0wbJT4nEfCthrQ94XfFQA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='ActuatorToConditions']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_K0wbJj4nEfCthrQ94XfFQA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='ActuatorToConditions']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_K0wbKT4nEfCthrQ94XfFQA" sourceNode="_K0k08D4nEfCthrQ94XfFQA" targetNode="_K0q7kj4nEfCthrQ94XfFQA">
+      <target xmi:type="metamodeloEnorm:Actuator" href="Scenario1.metamodeloenorm#//@hasActuator.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_K0wbKj4nEfCthrQ94XfFQA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='ActuatorToConditions']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_K0wbKz4nEfCthrQ94XfFQA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='ActuatorToConditions']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_K0wbLj4nEfCthrQ94XfFQA" sourceNode="_K0k08D4nEfCthrQ94XfFQA" targetNode="_K0sJsD4nEfCthrQ94XfFQA">
+      <target xmi:type="metamodeloEnorm:Actuator" href="Scenario1.metamodeloenorm#//@hasActuator.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_K0wbLz4nEfCthrQ94XfFQA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='ActuatorToNotificationProtocol']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_K0wbMD4nEfCthrQ94XfFQA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='ActuatorToNotificationProtocol']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_K0wbMz4nEfCthrQ94XfFQA" sourceNode="_K0sJsD4nEfCthrQ94XfFQA" targetNode="_K0ul9D4nEfCthrQ94XfFQA">
+      <target xmi:type="metamodeloEnorm:NotificationProtocol" href="Scenario1.metamodeloenorm#//@hasActuator.0/@followsNotificationProtocol"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_K0xpQD4nEfCthrQ94XfFQA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='NotificationProtocolToNotification']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_K0xpQT4nEfCthrQ94XfFQA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='NotificationProtocolToNotification']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_K0xpRD4nEfCthrQ94XfFQA" sourceNode="_K0lcAD4nEfCthrQ94XfFQA" targetNode="_K0nRPT4nEfCthrQ94XfFQA">
+      <target xmi:type="metamodeloEnorm:Sensor" href="Scenario1.metamodeloenorm#//@hasActuator.0/@isConnectedTo.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_K0xpRT4nEfCthrQ94XfFQA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='SensorToAttribute']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_K0xpRj4nEfCthrQ94XfFQA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='SensorToAttribute']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_K0xpST4nEfCthrQ94XfFQA" sourceNode="_K0lcAz4nEfCthrQ94XfFQA" targetNode="_K0ofVT4nEfCthrQ94XfFQA">
+      <target xmi:type="metamodeloEnorm:Sensor" href="Scenario1.metamodeloenorm#//@hasActuator.0/@isConnectedTo.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_K0xpSj4nEfCthrQ94XfFQA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='SensorToAttribute']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_K0xpSz4nEfCthrQ94XfFQA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='SensorToAttribute']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_K0xpTj4nEfCthrQ94XfFQA" sourceNode="_K0lcAD4nEfCthrQ94XfFQA" targetNode="_K0mqID4nEfCthrQ94XfFQA">
+      <target xmi:type="metamodeloEnorm:Sensor" href="Scenario1.metamodeloenorm#//@hasActuator.0/@isConnectedTo.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_K0xpTz4nEfCthrQ94XfFQA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='SensorToDataMapping']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_K0xpUD4nEfCthrQ94XfFQA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='SensorToDataMapping']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_K0yQUj4nEfCthrQ94XfFQA" sourceNode="_K0lcAz4nEfCthrQ94XfFQA" targetNode="_K0mqIz4nEfCthrQ94XfFQA">
+      <target xmi:type="metamodeloEnorm:Sensor" href="Scenario1.metamodeloenorm#//@hasActuator.0/@isConnectedTo.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_K0yQUz4nEfCthrQ94XfFQA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='SensorToDataMapping']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_K0yQVD4nEfCthrQ94XfFQA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='SensorToDataMapping']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_K0yQVz4nEfCthrQ94XfFQA" sourceNode="_K0lcAD4nEfCthrQ94XfFQA" targetNode="_K0pGaz4nEfCthrQ94XfFQA">
+      <target xmi:type="metamodeloEnorm:Sensor" href="Scenario1.metamodeloenorm#//@hasActuator.0/@isConnectedTo.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_K0yQWD4nEfCthrQ94XfFQA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='SensorToConditions']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_K0yQWT4nEfCthrQ94XfFQA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='SensorToConditions']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_K0yQXD4nEfCthrQ94XfFQA" sourceNode="_K0lcAz4nEfCthrQ94XfFQA" targetNode="_K0qUhD4nEfCthrQ94XfFQA">
+      <target xmi:type="metamodeloEnorm:Sensor" href="Scenario1.metamodeloenorm#//@hasActuator.0/@isConnectedTo.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_K0yQXT4nEfCthrQ94XfFQA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='SensorToConditions']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_K0yQXj4nEfCthrQ94XfFQA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='SensorToConditions']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_K0y3YD4nEfCthrQ94XfFQA" sourceNode="_K0qUhz4nEfCthrQ94XfFQA" targetNode="_K0sJsz4nEfCthrQ94XfFQA">
+      <target xmi:type="metamodeloEnorm:Conditions" href="Scenario1.metamodeloenorm#//@hasActuator.0/@followsConditions.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_K0y3YT4nEfCthrQ94XfFQA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='ConditionsToActions']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_K0y3Yj4nEfCthrQ94XfFQA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='ConditionsToActions']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_K0y3ZT4nEfCthrQ94XfFQA" sourceNode="_K0qUij4nEfCthrQ94XfFQA" targetNode="_K0sJtj4nEfCthrQ94XfFQA">
+      <target xmi:type="metamodeloEnorm:Conditions" href="Scenario1.metamodeloenorm#//@hasActuator.0/@followsConditions.1"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_K0y3Zj4nEfCthrQ94XfFQA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='ConditionsToActions']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_K0y3Zz4nEfCthrQ94XfFQA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='ConditionsToActions']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_K0y3aj4nEfCthrQ94XfFQA" sourceNode="_K0q7kj4nEfCthrQ94XfFQA" targetNode="_K0tX0T4nEfCthrQ94XfFQA">
+      <target xmi:type="metamodeloEnorm:Conditions" href="Scenario1.metamodeloenorm#//@hasActuator.0/@followsConditions.2"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_K0y3az4nEfCthrQ94XfFQA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='ConditionsToActions']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_K0y3bD4nEfCthrQ94XfFQA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='ConditionsToActions']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_K0y3bz4nEfCthrQ94XfFQA" sourceNode="_K0sJsz4nEfCthrQ94XfFQA" targetNode="_K0t-4D4nEfCthrQ94XfFQA">
+      <target xmi:type="metamodeloEnorm:Action" href="Scenario1.metamodeloenorm#//@hasActuator.0/@followsConditions.0/@triggersActions.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_K0y3cD4nEfCthrQ94XfFQA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='ActionToNotification']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_K0y3cT4nEfCthrQ94XfFQA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='ActionToNotification']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_K0zecj4nEfCthrQ94XfFQA" sourceNode="_K0sJtj4nEfCthrQ94XfFQA" targetNode="_K0ul8T4nEfCthrQ94XfFQA">
+      <target xmi:type="metamodeloEnorm:Action" href="Scenario1.metamodeloenorm#//@hasActuator.0/@followsConditions.1/@triggersActions.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_K0zecz4nEfCthrQ94XfFQA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='ActionToNotification']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_K0zedD4nEfCthrQ94XfFQA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='ActionToNotification']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_K0zedz4nEfCthrQ94XfFQA" sourceNode="_K0t-4D4nEfCthrQ94XfFQA" targetNode="_K0ofWD4nEfCthrQ94XfFQA">
+      <target xmi:type="metamodeloEnorm:Notification" href="Scenario1.metamodeloenorm#//@hasActuator.0/@followsConditions.0/@triggersActions.0/@maySendNotification.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_K00FgD4nEfCthrQ94XfFQA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='NotificationToAttribute']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_K00FgT4nEfCthrQ94XfFQA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='NotificationToAttribute']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_K00FhD4nEfCthrQ94XfFQA" sourceNode="_K0ul8T4nEfCthrQ94XfFQA" targetNode="_K0ofWz4nEfCthrQ94XfFQA">
+      <target xmi:type="metamodeloEnorm:Notification" href="Scenario1.metamodeloenorm#//@hasActuator.0/@followsConditions.1/@triggersActions.0/@maySendNotification.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_K00FhT4nEfCthrQ94XfFQA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='NotificationToAttribute']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_K00Fhj4nEfCthrQ94XfFQA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='NotificationToAttribute']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_K00skD4nEfCthrQ94XfFQA" sourceNode="_K0ul9D4nEfCthrQ94XfFQA" targetNode="_K0ofXj4nEfCthrQ94XfFQA">
+      <target xmi:type="metamodeloEnorm:Notification" href="Scenario1.metamodeloenorm#//@hasActuator.0/@followsNotificationProtocol/@hasNotification.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_K00skT4nEfCthrQ94XfFQA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='NotificationToAttribute']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_K00skj4nEfCthrQ94XfFQA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='NotificationToAttribute']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_K01ToD4nEfCthrQ94XfFQA" sourceNode="_K0nROj4nEfCthrQ94XfFQA" targetNode="_K0pGZT4nEfCthrQ94XfFQA">
+      <target xmi:type="metamodeloEnorm:Attribute" href="Scenario1.metamodeloenorm#//@hasActuator.0/@isConnectedTo.0/@mapsThroughDataMapping/@storesDatainDataCore/@hasList/@hasAttributes.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_K01ToT4nEfCthrQ94XfFQA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='AttributeToConditions']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_K01Toj4nEfCthrQ94XfFQA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='AttributeToConditions']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_K016sD4nEfCthrQ94XfFQA" sourceNode="_K0nRPT4nEfCthrQ94XfFQA" targetNode="_K0pGaD4nEfCthrQ94XfFQA">
+      <target xmi:type="metamodeloEnorm:Attribute" href="Scenario1.metamodeloenorm#//@hasActuator.0/@isConnectedTo.0/@hasAttribute.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_K016sT4nEfCthrQ94XfFQA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='AttributeToConditions']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_K016sj4nEfCthrQ94XfFQA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='AttributeToConditions']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_K016tT4nEfCthrQ94XfFQA" sourceNode="_K0ofUj4nEfCthrQ94XfFQA" targetNode="_K0ptcT4nEfCthrQ94XfFQA">
+      <target xmi:type="metamodeloEnorm:Attribute" href="Scenario1.metamodeloenorm#//@hasActuator.0/@isConnectedTo.1/@mapsThroughDataMapping/@storesDatainDataCore/@hasList/@hasAttributes.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_K016tj4nEfCthrQ94XfFQA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='AttributeToConditions']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_K016tz4nEfCthrQ94XfFQA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='AttributeToConditions']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_K016uj4nEfCthrQ94XfFQA" sourceNode="_K0ofVT4nEfCthrQ94XfFQA" targetNode="_K0qUgT4nEfCthrQ94XfFQA">
+      <target xmi:type="metamodeloEnorm:Attribute" href="Scenario1.metamodeloenorm#//@hasActuator.0/@isConnectedTo.1/@hasAttribute.0"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_K016uz4nEfCthrQ94XfFQA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='AttributeToConditions']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_K016vD4nEfCthrQ94XfFQA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='AttributeToConditions']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_K016vz4nEfCthrQ94XfFQA" sourceNode="_K0nRND4nEfCthrQ94XfFQA" targetNode="_K0nROj4nEfCthrQ94XfFQA">
+      <target xmi:type="metamodeloEnorm:List" href="Scenario1.metamodeloenorm#//@hasActuator.0/@isConnectedTo.0/@mapsThroughDataMapping/@storesDatainDataCore/@hasList"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_K016wD4nEfCthrQ94XfFQA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='ListToAttribute']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_K016wT4nEfCthrQ94XfFQA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='ListToAttribute']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_K016xD4nEfCthrQ94XfFQA" sourceNode="_K0nRNz4nEfCthrQ94XfFQA" targetNode="_K0ofUj4nEfCthrQ94XfFQA">
+      <target xmi:type="metamodeloEnorm:List" href="Scenario1.metamodeloenorm#//@hasActuator.0/@isConnectedTo.1/@mapsThroughDataMapping/@storesDatainDataCore/@hasList"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_K02hwD4nEfCthrQ94XfFQA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='ListToAttribute']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_K02hwT4nEfCthrQ94XfFQA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='ListToAttribute']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_K02hxD4nEfCthrQ94XfFQA" sourceNode="_K0mqJj4nEfCthrQ94XfFQA" targetNode="_K0nRND4nEfCthrQ94XfFQA">
+      <target xmi:type="metamodeloEnorm:Datacore" href="Scenario1.metamodeloenorm#//@hasActuator.0/@isConnectedTo.0/@mapsThroughDataMapping/@storesDatainDataCore"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_K03I0D4nEfCthrQ94XfFQA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='DatacoreToList']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_K03I0T4nEfCthrQ94XfFQA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='DatacoreToList']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_K03I1D4nEfCthrQ94XfFQA" sourceNode="_K0nRMT4nEfCthrQ94XfFQA" targetNode="_K0nRNz4nEfCthrQ94XfFQA">
+      <target xmi:type="metamodeloEnorm:Datacore" href="Scenario1.metamodeloenorm#//@hasActuator.0/@isConnectedTo.1/@mapsThroughDataMapping/@storesDatainDataCore"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_K03I1T4nEfCthrQ94XfFQA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='DatacoreToList']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_K03I1j4nEfCthrQ94XfFQA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='DatacoreToList']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_K03v4j4nEfCthrQ94XfFQA" sourceNode="_K0mqID4nEfCthrQ94XfFQA" targetNode="_K0mqJj4nEfCthrQ94XfFQA">
+      <target xmi:type="metamodeloEnorm:DataMapping" href="Scenario1.metamodeloenorm#//@hasActuator.0/@isConnectedTo.0/@mapsThroughDataMapping"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_K03v4z4nEfCthrQ94XfFQA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='DataMappingToDatacore']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_K03v5D4nEfCthrQ94XfFQA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='DataMappingToDatacore']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DEdge" uid="_K03v5z4nEfCthrQ94XfFQA" sourceNode="_K0mqIz4nEfCthrQ94XfFQA" targetNode="_K0nRMT4nEfCthrQ94XfFQA">
+      <target xmi:type="metamodeloEnorm:DataMapping" href="Scenario1.metamodeloenorm#//@hasActuator.0/@isConnectedTo.1/@mapsThroughDataMapping"/>
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_K03v6D4nEfCthrQ94XfFQA" size="2">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='DataMappingToDatacore']/@style"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_K03v6T4nEfCthrQ94XfFQA" labelSize="12"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer/@edgeMappings[name='DataMappingToDatacore']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_K0eHQT4nEfCthrQ94XfFQA"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/resource/metamodeloEnorm.design/description/metamodeloEnorm.odesign#//@ownedViewpoints[name='MyViewpoint']/@ownedRepresentations[name='Scenario']/@defaultLayer"/>
+    <target xmi:type="metamodeloEnorm:Scenario" href="Scenario1.metamodeloenorm#/"/>
+  </diagram:DSemanticDiagram>
+</xmi:XMI>

@@ -1,0 +1,43 @@
+class Order {
+    - id: int;
+    - idProduct: int;
+    - quantity: int;
+}
+
+class Product {
+    - id: int;
+    - fullName: string;
+    - idTaskLists: List<Integer>
+}
+
+class Task {
+    - id: int;
+    - timeTaken : int;
+    - idPhysResoList: List<Integer>
+}
+
+class PhysicalResource {
+    - id: int;
+    - type: String;
+    - quantityAvailable: int;
+}
+
+class HumanResource {
+    - id: int;
+    - idPhysResoList: List<Integer>;
+}
+
+class TaskSchedule {
+    - id: int;
+    - idTask: int;
+    - idOrder: int;
+    - dtStarted: Time;
+}
+
+Order "1" --> "1" Product
+
+Product "1" --> "N" Task
+
+Worker "1" --> "N" Skill
+
+Task "1" --> "N" Skill

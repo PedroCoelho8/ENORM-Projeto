@@ -1,0 +1,99 @@
+@startuml
+' A action e que informa o Actuator, nada do Sensor
+'
+class Scenario{
+    - name: String;
+}
+
+class Actuator{
+   - name: String;
+}
+
+class Action{
+   - name: String;
+   - returnType: DataType;
+   - actionMethod(): boolean;
+}
+
+class Sensor {
+   - name: String;
+}
+
+class Datacore {
+   - name: String;
+}
+
+class NotificationProtocol {
+   - name: String;
+}
+
+class Condition{
+   - name: String;
+   - returnType: DataType;
+   - conditionMethod()
+}
+
+class Notification{
+   - name: String;
+}
+
+class Attribute {
+    - name: String;
+    - type: DataType;
+    - value: string;
+    
+}
+
+class List{
+  - name: String;
+  - type: ListDataType
+}
+
+enum DataType{
+  - String
+  - Float
+  - Int 
+  - Boolean 
+  - Double
+}
+enum ListDataType{
+  - List
+  - Set 
+  - Hashmap
+}
+
+Scenario "1" --> "*" Actuator: has
+Scenario "1" --> "*" Attribute: has
+
+Actuator "1" --> "1" Sensor : is connected to
+Actuator "1" --> "*" Condition : follows
+Actuator "1" --> "1" NotificationProtocol : follows
+Actuator "1" --> "*" Attribute : has
+
+Sensor "1" --> "1" Datacore : stores data in
+Sensor "1" --> "*" Attribute : has
+Sensor "1" --> "*" Condition: follows
+
+Datacore "1" --> "1" Sensor : retrieves
+Datacore "1" --> "1" List : has
+
+NotificationProtocol "1" --> "*" Notification: has
+NotificationProtocol "1" --> "*" Attribute : has
+NotificationProtocol "1" --> "*" Condition : follows
+
+Notification "1" --> "1" Attribute : has
+
+Condition "O" --> "*" Action : triggers
+' Action -- DataType
+
+Attribute "1" --> "*" Condition : has
+Attribute -- DataType
+
+' List -- ListDataType
+List "1" --> "*" Attribute : has
+
+Action "0" --> "*" Actuator : acts on
+
+' Condition -- DataType
+
+@enduml

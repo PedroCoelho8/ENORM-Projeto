@@ -1,0 +1,60 @@
+@startuml
+skinparam shadowing false
+skinparam classAttributeIconSize 0
+skinparam classFontStyle bold
+skinparam classFontSize 14
+
+title Class Diagram: Scenario
+
+class Scenario {
+  +name: Scenario
+}
+
+class Actuator_BeltMotor {
+  +name: BeltMotor
+}
+
+class Sensor_Sensor1 {
+  +name: Sensor1
+}
+
+class DataMapping_Normalization_A {
+  +name: Normalization A
+}
+
+class DataCore_BeltDataCore {
+  +name: BeltDataCore
+}
+
+class List_ReadingA {
+  +name: ReadingA
+}
+
+class Attributes_NormalizedValues {
+  +name: NormalizedValues
+}
+
+class Conditions_AverageCalc {
+  +name: AverageCalc
+}
+
+class Attribute_RawValue {
+  +name: RawValue
+}
+
+class Conditions_OutlierDetection {
+  +name: OutlierDetection
+  +body: DetectOutliers
+}
+
+Scenario --> "0.." Actuator_BeltMotor : hasActuator
+Actuator_BeltMotor --> "0.." Sensor_Sensor1 : isConnectedTo
+Sensor_Sensor1 --> "0.." DataMapping_Normalization_A : mapsThroughDataMapping
+DataMapping_Normalization_A --> "0.." DataCore_BeltDataCore : storesDatainDataCore
+DataCore_BeltDataCore --> "0.." List_ReadingA : hasList
+List_ReadingA --> "0.." Attributes_NormalizedValues : hasAttributes
+Attributes_NormalizedValues --> "0.." Conditions_AverageCalc : hasConditions
+Sensor_Sensor1 --> "0.." Attribute_RawValue : hasAttribute
+Attribute_RawValue --> "0.." Conditions_OutlierDetection : hasConditions
+
+@enduml

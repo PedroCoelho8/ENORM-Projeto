@@ -1,0 +1,42 @@
+@startuml
+class HumiditySensor {
+    - id: String
+    - currentReading: Float
+    - previousReading: Float
+    - timestamp: Date
+    + getReading(): Float
+}
+
+class Dehumidifier {
+    - id: String
+    + turnOn(): void
+    + turnOff(): void
+}
+
+class WaterVaporizer {
+    - id: String
+    + turnOn(): void
+    + turnOff(): void
+}
+
+class HumidityMonitor {
+    - minInnerLimit: Float
+    - maxInnerLimit: Float
+    - minOuterLimit: Float
+    - maxOuterLimit: Float
+    - threshold: Float
+    + checkHumidity(): void
+    + activateActuator(): void
+    + sendNotification(): void
+}
+
+class NotificationService {
+    + sendSMS(message: String): void
+}
+
+HumidityMonitor --> HumiditySensor : monitors
+HumidityMonitor --> Dehumidifier : controls
+HumidityMonitor --> WaterVaporizer : controls
+HumidityMonitor --> NotificationService : uses
+
+@enduml

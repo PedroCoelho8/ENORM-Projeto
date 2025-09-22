@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metamodeloEnorm:Scenario xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:metamodeloEnorm="http://www.example.org/metamodeloEnorm" name="3">
+  <hasActuator name="Dehumidifier ">
+    <isConnectedTo name="HumiditySensor1">
+      <mapsThroughDataMapping name="HumidityProcessing1">
+        <storesDatainDataCore name="HumidityDataCore">
+          <hasList name="HumidityReadings1">
+            <hasAttributes name="AverageHumidity">
+              <hasConditions name="AverageLast5s" body="average(humidity, last 5s)"/>
+              <hasConditions name="IgnoreOutliers" body="abs(current - average) > threshold → ignore"/>
+            </hasAttributes>
+          </hasList>
+        </storesDatainDataCore>
+      </mapsThroughDataMapping>
+    </isConnectedTo>
+    <followsConditions name="HighHumidity" body="humidity > 48%">
+      <triggersActions name="StartDehumidifier">
+        <maySendNotification name="DehumidifierAlert">
+          <hasAttribute name="Message" value="High humidity detected. Dehumidifier activated."/>
+        </maySendNotification>
+      </triggersActions>
+    </followsConditions>
+    <followsConditions name="HumidityNormalized" body="humidity between 42% and 48%">
+      <triggersActions name="StopDehumidifier"/>
+    </followsConditions>
+  </hasActuator>
+  <hasActuator name="WaterVaporizer">
+    <isConnectedTo name="HumiditySensor1">
+      <mapsThroughDataMapping name="HumidityProcessing2">
+        <storesDatainDataCore name="HumidityDataCore">
+          <hasList name="HumidityReadings2">
+            <hasAttributes name="AverageHumidity">
+              <hasConditions name="AverageLast5s" body="average(humidity, last 5s)"/>
+              <hasConditions name="IgnoreOutliers" body="abs(current - average) > threshold → ignore"/>
+            </hasAttributes>
+          </hasList>
+        </storesDatainDataCore>
+      </mapsThroughDataMapping>
+    </isConnectedTo>
+    <followsConditions name="LowHumidity" body="humidity less 42%">
+      <triggersActions name="StartWaterVaporizer">
+        <maySendNotification name="LowHumidityAlert">
+          <hasAttribute name="Message" value="Low humidity detected. Vaporizer activated."/>
+        </maySendNotification>
+      </triggersActions>
+    </followsConditions>
+    <followsConditions name="HumidityNormalized" body="humidity between 42% and 48%">
+      <triggersActions name="StopWaterVaporizer"/>
+    </followsConditions>
+  </hasActuator>
+  <hasActuator name="SecondaryHumidityMonitor">
+    <isConnectedTo name="HumiditySensor2">
+      <mapsThroughDataMapping name="SecondaryHumidityProcessing">
+        <storesDatainDataCore name="HumidityDataCore">
+          <hasList name="HumidityReadings3">
+            <hasAttributes name="AverageHumidity">
+              <hasConditions name="AverageLast5s" body="average(humidity, last 5s)"/>
+              <hasConditions name="IgnoreOutliers" body="abs(current - average) > threshold → ignore"/>
+            </hasAttributes>
+          </hasList>
+        </storesDatainDataCore>
+      </mapsThroughDataMapping>
+    </isConnectedTo>
+  </hasActuator>
+</metamodeloEnorm:Scenario>

@@ -1,0 +1,54 @@
+@startuml
+class ConveyorBelt{
+    - id: float;
+    - entryDevice: Sensor;
+    - exitDevice: Sensor;
+    - timeController: TimeController;
+    - defaultValue: boolean;
+ß
+    - start(): void;
+    - stop(): void;
+    - startTimer(): TimeController;
+    - stopTimer(): boolean;
+    - readSign(String sign): void;
+    - readSignal(): boolean;
+}
+
+class TimeController{
+    - id: float;
+    - minimumTimePeriod: int;
+    - maximumTimePeriod: int;
+    - warningTimePeriod: int;
+
+    - checkTime(int timeOn): String;
+    - sendWarningSign(): String;
+    - sendStopSign(): String;
+}
+
+class Sensor{
+    - id: float;
+    - readSignal(): Signal;
+}
+
+class Monitor{
+    - id: float;
+    - listSignals: List<Signal>;
+    - frequency: int;
+    - getLast3Signals(): boolean;
+}
+
+class Signal{
+    - id: float;
+    - value: int;
+    - setValue(int value): void;
+}
+
+ConveyorBelt "1"->"1" TimeController
+ConveyorBelt "1"<-"1" TimeController
+
+ConveyorBelt "1"-->"2" Sensor
+ConveyorBelt "1"<--"1" Sensor
+
+Sensor "1"-->"1" Monitor
+Monitor "1" --> "*" Signal
+@enduml

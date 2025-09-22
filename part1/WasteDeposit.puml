@@ -1,0 +1,60 @@
+@startuml
+' Pacote representando o sistema de Waste Deposit
+package "Waste Deposit System" {
+
+  ' Entidade principal
+  class WasteDeposit {
+    +capacity : float
+    +warningThreshold : float
+    +dangerThreshold  : float
+  }
+
+  ' Monitores que fazem a leitura e passam os dados normalizados
+  class Monitor {
+    +Id : String
+    +MaxThreshold : float
+    +getReading() : float
+    +getNormalizedData() : float
+    +detectOutlier(current : float, previous : float, threshold : float) : boolean
+  }
+
+  ' Dispositivo de luz que exibe o nível
+  class LightDevice {
+    +state : String <<green, yellow, red>>
+    +setColor(color : String) : void
+    +turnOn() : void
+    +turnOff() : void
+  }
+
+  ' Dispositivo de alarme (buzina) acionado em situação de perigo
+  class HornDevice {
+    +turnOn() : void
+    +turnOff() : void
+  }
+
+  ' Classe para normalização de valores
+  class Normalization {
+    +normalize(value: float) : float
+  }
+
+  ' Processador de dados, que calcula média e detecta outliers
+  class DataProcessor {
+    +computeAverage(values: List<float>) : float
+  }
+
+  ' Controlador que aciona os dispositivos de luz e alarme
+  class Controller {
+    +controlLightDevice(average: float, warningThreshold: float, dangerThreshold: float) : void
+    +controlHornDevice(average : float, warningThreshold: float, dangerThreshold: float) : void
+  }
+
+  ' Relacionamentos hierárquicos
+  WasteDeposit "1" --> "3" Monitor : possui
+  Monitor --> Normalization : usa
+  Normalization --> DataProcessor : envia dados normalizados
+  DataProcessor --> Controller : envia média
+  Controller --> LightDevice : controla
+  Controller --> HornDevice : controla
+}
+
+@enduml

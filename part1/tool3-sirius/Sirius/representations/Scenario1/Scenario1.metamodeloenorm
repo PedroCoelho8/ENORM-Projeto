@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metamodeloEnorm:Scenario xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:metamodeloEnorm="http://www.example.org/metamodeloEnorm">
+    <hasActuator name="BeltMotor">
+       <isConnectedTo name="Sensor1">
+         <mapsThroughDataMapping name="Normalization A">
+           <storesDatainDataCore name="BeltDataCore">
+             <hasList name="ReadingA">
+               <hasAttributes name="NormalizedValues">
+                 <hasConditions name="AverageCalc"/>
+               </hasAttributes>
+             </hasList>
+           </storesDatainDataCore>
+         </mapsThroughDataMapping>
+         <hasAttribute name="RawValue">
+           <hasConditions name="OutlierDetection" body="DetectOutliers"/>
+         </hasAttribute>
+         <followsConditions name="NormalizeSignal" body="normalized = value / 10"/>
+       </isConnectedTo>
+
+       <isConnectedTo name="Sensor2">
+         <mapsThroughDataMapping name="Normalization B">
+           <storesDatainDataCore name="BeltDataCore">
+             <hasList name="ReadingB">
+               <hasAttributes name="NormalizedValues">
+                 <hasConditions name="AverageCalc"/>
+               </hasAttributes>
+             </hasList>
+           </storesDatainDataCore>
+         </mapsThroughDataMapping>
+         <hasAttribute name="RawValue">
+           <hasConditions name="OutlierDetection" body="DetectOutliers"/>
+         </hasAttribute>
+         <followsConditions name="NormalizeSignal" body="normalized = value / 10"/>
+       </isConnectedTo>
+
+       <followsConditions name="ObjectDetected" body="sensor1 > 0.778 &amp;&amp; sensor2 > 0.778 for 3 cycles">
+         <triggersActions name="StartBelt">
+           <maySendNotification name="StartNotification">
+             <hasAttribute name="Message"/>
+           </maySendNotification>
+         </triggersActions>
+       </followsConditions>
+
+       <followsConditions name="MaxRunTimeReached" body="motionTime ≥ maxTime">
+         <triggersActions name="StopBelt">
+           <maySendNotification name="MaxTimeWarning">
+             <hasAttribute name="Message"/>
+           </maySendNotification>
+         </triggersActions>
+       </followsConditions>
+
+       <followsConditions name="CooldownActive" body="timeSinceStop &lt; cooldown">
+         <triggersActions name="BlockStart"/>
+       </followsConditions>
+
+       <hasAttributes name="Estado" value="stopped"/>
+
+       <followsNotificationProtocol name="BeltStatus">
+         <hasNotification name="StatusUpdate">
+           <hasAttribute name="Message"/>
+         </hasNotification>
+       </followsNotificationProtocol>
+     </hasActuator>
+</metamodeloEnorm:Scenario>
