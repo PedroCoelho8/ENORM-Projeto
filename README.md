@@ -1,59 +1,63 @@
-# Repository for ENORM Project - Part 1 and 2
+# ENORM-Projeto — DSL for Device-Oriented Software Service (DoSS)  
+Master in Informatics Engineering, 2024/2025
 
-The goal of this repository is to serve as a template for Part 1 and 2 of the project developed during the ENORM course of the MEI Master Program.
+## Contexto
 
-**Please follow the instructions of the teachers of your course because they will always prevail over what is stated in this readme file.**
+Este repositório corresponde ao Projeto ENORM (Parte 1: Modelação) da unidade curricular de Engenharia de Software, no contexto do desenvolvimento de uma *Software Product Line* para ambientes industriais. O objetivo é a conceção de uma **Linguagem Específica de Domínio (DSL)** — a DoSS — para modelar e automatizar serviços de software orientados a dispositivos no shop floor industrial.
 
-## Folders for Each Part
+## Objetivos
 
-Each part of the project should be inside a specific folder (i.e., folders **part1** and **part2**). 
+- Desenvolver uma DSL (DoSS) para descrever cenários de integração e automação de dispositivos industriais (sensores, atuadores, etc).
+- Permitir que especialistas do domínio especifiquem cenários, lógica de processamento e ações sem recorrer a programação tradicional.
+- Facilitar a geração automática de código que implemente os serviços modelados.
+- Suportar tanto sintaxe textual como gráfica.
+- Aplicar princípios de *Domain Engineering* e *Application Engineering*.
 
-See these folders for further instructions.
+## Características da DSL (DoSS)
 
-## Students Individual Folders
-Each member of the team should have his/her specific subfolder related to the specific selected tool. Inside this folder there should be one subfolder for each tool project.
+- **Simples e Intuitiva:** Focada na facilidade de utilização por experts do domínio.
+- **Poderosa e Focada:** Suporta múltiplos dispositivos, definição de interfaces, condições, ações, agregações, notificações, etc.
+- **Flexível e Extensível:** Permite integração de novos dispositivos e lógica customizada.
+- **Fortemente Tipada:** Minimiza erros de especificação.
 
-You will encounter some already existing folders that follow these guidelines.
+## Processo e Metodologia
 
-**Note:** If for some reason you need to bypass these guidelines please ask for directions with your teacher and **always** state the exceptions in your commits and issues in GitHub.
+O projeto segue um ciclo de desenvolvimento em duas vertentes:
+- **Domain Engineering:** Definição do metamodelo, constraints, transformações, e projecções (visualizações) para a DSL.
+- **Application Engineering:** Criação de modelos de cenários reais com a DSL e demonstração do seu uso.
 
-## Documentation
-It is mandatory to produce documentation for all your tasks. The documentaion **must** always be produced in **readme.md files** like this one!
+### Atividades Principais
 
-These readme.md files use markdown. You may find further documentation about markdown in [Markdown](https://en.wikipedia.org/wiki/Markdown)
+1. **Setup e Seleção de Ferramentas:**  
+   Cada membro usa uma ferramenta distinta (No meu caso: Sirius) para implementar a DSL.
+2. **Levantamento de Conhecimento:**  
+   Estudo do domínio, análise de trabalhos relacionados e definição de modelos para os cenários fornecidos.
+3. **Conceção do Metamodelo:**  
+   Union de modelos, definição formal (ex: diagramas de classes), constraints (OCL ou pseudo-código), refatorações.
+4. **Projeções e Visualizações:**  
+   Geração automática de diagramas (PlantUML/Graphviz) e projeções textuais dos modelos.
+5. **Modelação de Cenários Reais:**  
+   Aplicação da DSL aos cenários:  
+   - *Cenário 1:* Tapete transportador com sensores.  
+   - *Cenário 2:* Depósito de resíduos com luzes e buzina.  
+   - *Cenário 3:* Gestão de humidade com sensores e atuadores.
+6. **Documentação Markdown:**  
+   Relatório detalhado, com secções de equipa e individuais, integrando todos os artefactos.
 
-### Producing Technical Diagrams
+## Organização do Repositório
 
-This repository supports the generation of PlantUML diagrams using Gradle.
+- `team/` — Artefactos e documentação de equipa (modelos, metamodelo, visualizações, etc).
+- `individual/` — Secções individuais (setup, implementação por ferramenta, etc).
+- `scenarios/` — Modelos dos cenários e suas projeções.
+- `docs/` — Relatório principal em Markdown e anexos.
+- `README.md` — Este ficheiro.
 
-The PlantUML diagram files must be included in the **diagrams** folder. The file build.gradle and the folder buildSrc is where the gradle support for PlantUML is located.
+## Ferramentas e Tecnologias
 
-To generate diagram simple execute "./gradlew" (or "gradlew.bat" in Windows) in a terminal (having the root of the project as the current folder).
+- **MPS (JetBrains), Eclipse Xtext, Eclipse Sirius** — Ferramentas para DSLs.
+- **Eclipse Modeling Framework (EMF), PlantUML, Graphviz** — Metamodelação e visualização.
+- **Markdown (docs e relatórios), GitHub** — Relato e versionamento.
 
-The repository includes an example of a PlantUML diagram in diagrams/usecase.puml.
+---
 
-![PlantUML Diagram Example](diagrams/usecase.png)
-
-## Issues and Commits
-
-Each team will have a fork of this repository in GitHub.
-
-It is a good practice to create an **Issue** for each task that your team or you individually will be developing.
-
-Each commit in your repository should always make a reference to the corresponding issue.
-
-You should also close the issue when the task is finished.
-
-For each deadline/submission of your task/project you should also create a tag in the repository.
-
-## Project Assessment / Submission
-
-For **project assessment** you are required to submit your work on **[Moodle](https://moodle.isep.ipp.pt/)**.
-
-
-For the Moodle submission a file containing a copy of the repository must be download from the team repository and submitted on the available link. The file to submit must be obtained from GitHub with the option "<>Code" and then selecting "Download Zip".
-
-You should submit the resulting **zip file** with all the contents of your repository.
-
-
-
+> **ENORM — Engenharia de Software, MIEI ISEP 2024/2025**  
